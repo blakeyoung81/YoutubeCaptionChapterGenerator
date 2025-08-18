@@ -120,25 +120,28 @@ INSTRUCTIONS:
 2. Identify {structure['questions']} distinct questions/topics being covered
 3. Find the closing/conclusion section
 4. Create meaningful titles for each question based on the actual content
-5. Ensure timestamps cover the ENTIRE video duration
+5. For EACH chapter, also provide a one-sentence explanation (1 short line) summarizing what is covered
+6. Ensure timestamps cover the ENTIRE video duration
+
+FORMAT REQUIREMENTS:
+- Return JSON with EXACTLY {structure['total']} chapters
+- Each chapter must include: timestamp (HH:MM:SS), title, description
 
 EXAMPLE FORMAT for questions:
-- "Q1: Oxaloacetate vs Acetyl CoA Metabolism"
-- "Q2: Enzyme Kinetics and Inhibition"
-- etc.
+- title: "Q1: Oxaloacetate vs Acetyl CoA Metabolism"
+- description: "Compares entry points into the TCA cycle and key regulatory differences."
 
 Return your response as a JSON object with exactly {structure['total']} chapters:
 {{
     "chapters": [
-        {{"timestamp": "00:00:00", "title": "Introduction"}},
-        {{"timestamp": "00:02:30", "title": "Q1: [Specific Topic from Content]"}},
-        {{"timestamp": "00:05:15", "title": "Q2: [Specific Topic from Content]"}},
+        {{"timestamp": "00:00:00", "title": "Introduction", "description": "Overview of what will be covered."}},
+        {{"timestamp": "00:02:30", "title": "Q1: [Specific Topic from Content]", "description": "One-sentence summary of Q1."}},
         ...
-        {{"timestamp": "{format_time(duration-60)}", "title": "Closing Remarks"}}
+        {{"timestamp": "{format_time(duration-60)}", "title": "Closing Remarks", "description": "Key takeaways and next steps."}}
     ]
 }}
 
-CRITICAL: You must return exactly {structure['total']} chapters. Base question titles on the actual content discussed in the transcript."""
+CRITICAL: You must return exactly {structure['total']} chapters. Base question titles and descriptions on the actual content discussed in the transcript."""
 
     try:
         response = client.chat.completions.create(
@@ -171,7 +174,16 @@ CRITICAL: You must return exactly {structure['total']} chapters. Base question t
         if len(chapters) != structure['total']:
             print(f"Warning: Expected {structure['total']} chapters, got {len(chapters)}")
         
-        return chapters
+        # Normalize chapter objects to ensure description exists
+        normalized = []
+        for ch in chapters:
+            normalized.append({
+                'timestamp': ch.get('timestamp'),
+                'title': ch.get('title'),
+                'description': ch.get('description', '').strip()
+            })
+        
+        return normalized
         
     except Exception as e:
         print(f"AI analysis failed: {e}")
@@ -309,7 +321,7 @@ def main():
             # Format chapters for output
             chapter_lines = []
             for chapter in chapters:
-                chapter_lines.append(f"{chapter['timestamp']} {chapter['title']}")
+                chapter_lines.append(f"{chapter['timestamp']} {chapter['title']} - {chapter['description']}")
             
             # Save to file
             output_file = f"chapters/{clean_title}_structured_chapters.txt"
