@@ -89,7 +89,7 @@ The web interface provides a beautiful, user-friendly way to generate chapters:
 python generate_youtube_chapters.py https://youtu.be/iKEcax0auH0 100
 ```
 
-**Output:** `chapters/iKEcax0auH0_100chapters.txt`
+**Output:** `chapters/How_to_ace_the_ACT_-_Lesson_9_Final_Math_Review.txt`
 ```
 SUGGESTED TITLES:
 1. "Master Cardiovascular Physiology: Complete USMLE Step 1 Guide!"
@@ -115,7 +115,7 @@ YOUTUBE TAGS:
 python generate_youtube_chapters.py https://youtu.be/vXpvPSYmI4I 12 --questions
 ```
 
-**Output:** `chapters/vXpvPSYmI4I_12chapters.txt`
+**Output:** `chapters/USMLE_Step_1__High_Yield_Facts.txt`
 ```
 SUGGESTED TITLES:
 1. "10 Essential Questions Every Student Must Know!"
@@ -170,8 +170,11 @@ YOUTUBE TAGS:
 ## Generated Files
 
 - `VIDEO_ID_audio.mp3`: Downloaded audio (automatically cleaned up)
-- `VIDEO_ID_transcript.json`: Whisper transcription with timestamps
-- `chapters/VIDEO_ID_Nchapters.txt`: Complete optimization file with titles, chapters and SEO tags
+- `VIDEO_ID_transcript.json`: Whisper transcription with timestamps (automatically cleaned up)
+- `chapters/Video_Title.txt`: Complete SEO optimization package with:
+  - 5 optimized video titles in "Step 1 Prep - Topic1, Topic2..." format
+  - Content-aligned chapter timestamps and titles
+  - 15-20 YouTube hashtags for maximum discoverability
 
 ## Advanced Options
 
