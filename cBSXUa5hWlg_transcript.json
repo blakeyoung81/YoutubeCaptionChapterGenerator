@@ -1,0 +1,2338 @@
+[
+  {
+    "start": 0.0,
+    "text": "Well everybody and welcome back."
+  },
+  {
+    "start": 1.72,
+    "text": "We've got some awesome practice questions for you today."
+  },
+  {
+    "start": 3.68,
+    "text": "Please like and subscribe and let's get started."
+  },
+  {
+    "start": 5.48,
+    "text": "A 28 year old male, he is a competitive cyclist, participates in a high intensity interval"
+  },
+  {
+    "start": 10.24,
+    "text": "training session."
+  },
+  {
+    "start": 11.24,
+    "text": "He performs multiple short bursts of maximum effort cycling, followed by a one minute recovery"
+  },
+  {
+    "start": 15.44,
+    "text": "period at a slower pace."
+  },
+  {
+    "start": 17.36,
+    "text": "After completing several of these intervals, he experienced a significant leg muscle that"
+  },
+  {
+    "start": 20.64,
+    "text": "he can bring pain."
+  },
+  {
+    "start": 22.48,
+    "text": "Laboratory analysis after the session shows a temporary decline in the blood pH, which"
+  },
+  {
+    "start": 26.6,
+    "text": "of the following is the most likely contributing to his symptoms."
+  },
+  {
+    "start": 29.28,
+    "text": "Alright, so the big takeaway here is we have a high intensity interval training and that"
+  },
+  {
+    "start": 33.32,
+    "text": "implies anaerobic metabolism."
+  },
+  {
+    "start": 35.04,
+    "text": "I used to play baseball, competitively we went around the nation and I was a pitcher."
+  },
+  {
+    "start": 39.28,
+    "text": "And after I would throw, I remember one of the parents would always massage my arm and"
+  },
+  {
+    "start": 43.480000000000004,
+    "text": "they'd say you got to get that lactic acid out and there's actually a little bit of truth"
+  },
+  {
+    "start": 46.92,
+    "text": "to that, right?"
+  },
+  {
+    "start": 48.24,
+    "text": "In this patient we saw a temporary decline in the blood pH and so that's like the acid."
+  },
+  {
+    "start": 52.72,
+    "text": "That's the metabolic acidosis and that's usually lactates because of the anaerobic conditions."
+  },
+  {
+    "start": 57.68,
+    "text": "The burning pain in the muscles is also classic for lactic acid buildup."
+  },
+  {
+    "start": 61.04,
+    "text": "And so during anaerobic exercise oxygen become limiting and so to keep glycolysis running"
+  },
+  {
+    "start": 65.52,
+    "text": "of the only available ATP source whenever you're doing anaerobic exercise, the cells have"
+  },
+  {
+    "start": 69.28,
+    "text": "to convert pyruvate into lactate so that they can regenerate NAD+."
+  },
+  {
+    "start": 73.32,
+    "text": "And that leads to the acid buildup."
+  },
+  {
+    "start": 74.72,
+    "text": "And so the big associations here are lactate dehydrogenase, LDH."
+  },
+  {
+    "start": 78.52,
+    "text": "That's the enzyme that's responsible for the pyruvate to lactate conversion."
+  },
+  {
+    "start": 82.36,
+    "text": "We should also know that this is going to be associated with your type 2B muscle fibers."
+  },
+  {
+    "start": 85.84,
+    "text": "They're fast switch anaerobic high lactate producers."
+  },
+  {
+    "start": 89.04,
+    "text": "And the cori cycle is relevant here too."
+  },
+  {
+    "start": 90.76,
+    "text": "The cori cycle is where the liver converts the lactate back to glucose via gluconeogenesis."
+  },
+  {
+    "start": 96.52000000000001,
+    "text": "And so you get that NAD+."
+  },
+  {
+    "start": 98.44,
+    "text": "Regeneration and it's super critical to sustain glycolysis during the oxygen debt."
+  },
+  {
+    "start": 103.24000000000001,
+    "text": "And so you get exercise induced acidosis and then self-limited and it resolves with"
+  },
+  {
+    "start": 107.12,
+    "text": "rest and reoxygenation."
+  },
+  {
+    "start": 108.68,
+    "text": "So the pathophysiology is very important here."
+  },
+  {
+    "start": 112.0,
+    "text": "Most you have the oxygen depletion during the intense exercise limits."
+  },
+  {
+    "start": 115.6,
+    "text": "Or you can't breathe while you're doing that intense exercise and so we're undergoing"
+  },
+  {
+    "start": 119.48,
+    "text": "glycolysis."
+  },
+  {
+    "start": 120.8,
+    "text": "So we're limiting the oxidative phosphorylation that can occur."
+  },
+  {
+    "start": 123.8,
+    "text": "So that's the first thing."
+  },
+  {
+    "start": 124.88,
+    "text": "And the second step is super related to this."
+  },
+  {
+    "start": 126.88,
+    "text": "Glicolosis is all of a sudden now, the very predominant source of ATP."
+  },
+  {
+    "start": 131.68,
+    "text": "And that's great, but this produces NADH as a product."
+  },
+  {
+    "start": 135.48,
+    "text": "And then we're going to convert this pyruvate, which is made through glycolysis, into lactate."
+  },
+  {
+    "start": 140.04,
+    "text": "Via LDH and that regenerates NAD+."
+  },
+  {
+    "start": 142.44,
+    "text": "That allows glycolysis to get to any work, right?"
+  },
+  {
+    "start": 144.44,
+    "text": "Because you need an AD+."
+  },
+  {
+    "start": 145.44,
+    "text": "For this to work."
+  },
+  {
+    "start": 146.44,
+    "text": "And so you deprive of a telectate so you can go and try to glycolysis again."
+  },
+  {
+    "start": 150.48,
+    "text": "And then lactate acid accumulates and that causes intracellular and systemic acidosis,"
+  },
+  {
+    "start": 155.16,
+    "text": "which manifests as the burning muscle pain."
+  },
+  {
+    "start": 157.04,
+    "text": "So that's the reason why I was the burning muscle pain."
+  },
+  {
+    "start": 158.51999999999998,
+    "text": "That's the reason why the blood pH is low."
+  },
+  {
+    "start": 160.04,
+    "text": "That's the transient metabolic acidosis."
+  },
+  {
+    "start": 162.07999999999998,
+    "text": "And there's no oxygen."
+  },
+  {
+    "start": 163.68,
+    "text": "And that leads to glycolysis dependent ATP generation."
+  },
+  {
+    "start": 166.64,
+    "text": "And you get the short bursts of the effort."
+  },
+  {
+    "start": 168.55999999999997,
+    "text": "That's the type two fibers."
+  },
+  {
+    "start": 170.23999999999998,
+    "text": "Those guys are involved in anaerobic glycolysis."
+  },
+  {
+    "start": 173.0,
+    "text": "And so our answer is indeed going to be C, the conversion of pyruvate to lactate,"
+  },
+  {
+    "start": 176.64,
+    "text": "regeneration of NAD+."
+  },
+  {
+    "start": 177.95999999999998,
+    "text": "And the muscle cells."
+  },
+  {
+    "start": 178.88,
+    "text": "So it's during the anaerobic exercise, the muscles rapidly consume ATP."
+  },
+  {
+    "start": 182.11999999999998,
+    "text": "Oxygen delivery can't keep up."
+  },
+  {
+    "start": 183.35999999999999,
+    "text": "And so you switch to anaerobic glycolysis."
+  },
+  {
+    "start": 185.51999999999998,
+    "text": "Irubite is converted to lactate by lactate dehydrogenates, which regenerates NAD+."
+  },
+  {
+    "start": 189.27999999999997,
+    "text": "Allowing glycolysis to continue."
+  },
+  {
+    "start": 190.92,
+    "text": "Lactate builds up causes acidosis manifesting as burning, pain and fatigue."
+  },
+  {
+    "start": 195.28,
+    "text": "So that's the reason why your legs feel like they're on fire after you do the big old sprint."
+  },
+  {
+    "start": 198.76,
+    "text": "Your muscles demand the energy quickly."
+  },
+  {
+    "start": 200.32,
+    "text": "Oxygen delivery can't keep up."
+  },
+  {
+    "start": 201.64000000000001,
+    "text": "And so we switch gears to glycolysis."
+  },
+  {
+    "start": 203.44,
+    "text": "And it turns glucose into pyruvate."
+  },
+  {
+    "start": 205.28,
+    "text": "But to keep going with that oxygen, we have to convert it to lactate to regenerate NAD+."
+  },
+  {
+    "start": 209.56,
+    "text": "Causing acidosis, fatigue and pain."
+  },
+  {
+    "start": 211.44,
+    "text": "That's why you have that drop."
+  },
+  {
+    "start": 212.8,
+    "text": "Muscle pain."
+  },
+  {
+    "start": 214.2,
+    "text": "It's the intense anaerobic exercise."
+  },
+  {
+    "start": 215.96,
+    "text": "Okay, and our next question."
+  },
+  {
+    "start": 216.8,
+    "text": "We have a 12 year old boy evaluated for muscle weakness."
+  },
+  {
+    "start": 218.6,
+    "text": "That's a confusion and temporary vision loss on his right side."
+  },
+  {
+    "start": 221.24,
+    "text": "His maternal uncle experienced similar symptoms."
+  },
+  {
+    "start": 223.08,
+    "text": "And the boy has experienced difficulty keeping up in physical education class due to fatigue"
+  },
+  {
+    "start": 226.76000000000002,
+    "text": "and muscle cramps."
+  },
+  {
+    "start": 228.24,
+    "text": "On a physical examination, there's a right-sided hemiparesis and decreased visual acuity"
+  },
+  {
+    "start": 231.72000000000003,
+    "text": "in his right eye."
+  },
+  {
+    "start": 232.72000000000003,
+    "text": "Laboratory studies reveal elevated serum lactate to levels both that rest and after exercise."
+  },
+  {
+    "start": 237.92000000000002,
+    "text": "The MRI of the brain shows areas of hyperintensity in the occipital region, which in the following"
+  },
+  {
+    "start": 242.84,
+    "text": "is most likely genetic and abnormality in this patient."
+  },
+  {
+    "start": 245.36,
+    "text": "The answer is mutation in mitochondrial RNA."
+  },
+  {
+    "start": 247.36,
+    "text": "And there are two main facts that we have to know to be able to answer this question."
+  },
+  {
+    "start": 250.24,
+    "text": "One, we have to know what may loss is."
+  },
+  {
+    "start": 252.0,
+    "text": "Your mitochondrial and sept myopathy."
+  },
+  {
+    "start": 254.28,
+    "text": "Incephalomyopathy with lactic acidosis and stroke-like episodes."
+  },
+  {
+    "start": 258.40000000000003,
+    "text": "So it's mitochondrial and septalomyopathy with lactic acidosis and stroke-like episodes."
+  },
+  {
+    "start": 264.08,
+    "text": "And this is often maternally inherited."
+  },
+  {
+    "start": 266.2,
+    "text": "That's why it says the maternal uncle has experienced this as well."
+  },
+  {
+    "start": 269.56,
+    "text": "This is caused by mutations in the mitochondrial tRNA, commonly with lysine or lucine."
+  },
+  {
+    "start": 273.96000000000004,
+    "text": "That can disrupt oxidative phosphorylation."
+  },
+  {
+    "start": 276.2,
+    "text": "So maternal inheritance strongly points to a mitochondrial disorder."
+  },
+  {
+    "start": 279.8,
+    "text": "The elevated lactate at rest and after exercise is going to be a clue for the defective mitochondrial"
+  },
+  {
+    "start": 284.76,
+    "text": "metabolism."
+  },
+  {
+    "start": 285.76,
+    "text": "It's the same kind of thing as the last question."
+  },
+  {
+    "start": 287.24,
+    "text": "Here we have defective mitochondrial metabolism, which means you have more lactic acidosis"
+  },
+  {
+    "start": 291.28000000000003,
+    "text": "because, like, colitis is going to be relied upon to a greater extent."
+  },
+  {
+    "start": 294.64,
+    "text": "There are also some stroke-like episodes in a child, and that's due to the S in melos."
+  },
+  {
+    "start": 299.12,
+    "text": "Whenever you have a stroke in a child, especially without any vascular causes, they're definitely"
+  },
+  {
+    "start": 304.56,
+    "text": "lead to think of a mitochondrial cytopathy."
+  },
+  {
+    "start": 307.64,
+    "text": "Because unlike ischemic strokes, the melos related lesions don't actually have any respect"
+  },
+  {
+    "start": 312.8,
+    "text": "for those vascular territories."
+  },
+  {
+    "start": 314.28,
+    "text": "That's the super important clue on imaging."
+  },
+  {
+    "start": 316.59999999999997,
+    "text": "You have stroke-like episodes, lactic acidosis and maternal inheritance."
+  },
+  {
+    "start": 320.52,
+    "text": "So here's the pathophysi, you have a mutation in mitochondrial DNA, causing defective"
+  },
+  {
+    "start": 324.15999999999997,
+    "text": "proteins for oxidative phosphorylation, decreased electron transportane function, so you have"
+  },
+  {
+    "start": 327.91999999999996,
+    "text": "less ATP, and so then you have lactic acid from the inter-bicmetabolism, and then the energy"
+  },
+  {
+    "start": 332.44,
+    "text": "demanding tissues like the brain and the muscle are going to have stroke-like episodes, even"
+  },
+  {
+    "start": 336.08,
+    "text": "that's not like that same vast of the problem that you're used to whenever you have stroke-like"
+  },
+  {
+    "start": 338.96,
+    "text": "episodes."
+  },
+  {
+    "start": 339.96,
+    "text": "And this most often affects the posterior cortex, the occipital lobes, and concosovision"
+  },
+  {
+    "start": 344.44,
+    "text": "loss."
+  },
+  {
+    "start": 345.44,
+    "text": "And really, you're going to see the ragged red fibers on the biopsy, and that's because"
+  },
+  {
+    "start": 347.64,
+    "text": "of the accumulation of the abnormal mitochondria."
+  },
+  {
+    "start": 350.03999999999996,
+    "text": "All right, and the next question."
+  },
+  {
+    "start": 351.59999999999997,
+    "text": "We have a 55-year-old woman participating in a research study, investing in the relationship"
+  },
+  {
+    "start": 355.68,
+    "text": "between dietary patterns and the development of hypertension."
+  },
+  {
+    "start": 358.56,
+    "text": "She presents with a medical history that includes type 2 diabetes, maledis, and hyper-lippidemia."
+  },
+  {
+    "start": 363.64,
+    "text": "Part of the study, she is asked about her regular intake of fruits and veggies, and her"
+  },
+  {
+    "start": 367.52,
+    "text": "consumption of processed foods."
+  },
+  {
+    "start": 368.72,
+    "text": "The study involves comparing groups of people with them without hypertension to determine"
+  },
+  {
+    "start": 372.08,
+    "text": "if scientific dietary habits are associated with the presence of the condition."
+  },
+  {
+    "start": 375.64,
+    "text": "What is the most purpose, physical measure, to quantify the association with dietary"
+  },
+  {
+    "start": 378.8,
+    "text": "patterns and hypertension in the study?"
+  },
+  {
+    "start": 381.04,
+    "text": "All right, there's our patient."
+  },
+  {
+    "start": 382.24,
+    "text": "She's got her fruits and her veggies."
+  },
+  {
+    "start": 384.72,
+    "text": "And what's important to know is that you cannot calculate the risk in a case-control study."
+  },
+  {
+    "start": 388.96,
+    "text": "And that's because you've already chosen your outcome cases and controls before you even"
+  },
+  {
+    "start": 392.4,
+    "text": "look at the exposures."
+  },
+  {
+    "start": 393.88,
+    "text": "And so here we're comparing people with and without hypertension, and we're asking them"
+  },
+  {
+    "start": 398.2,
+    "text": "about their dietary history."
+  },
+  {
+    "start": 399.35999999999996,
+    "text": "And that is the hallmark of a case control."
+  },
+  {
+    "start": 401.64,
+    "text": "And so this is going to be an odds ratio."
+  },
+  {
+    "start": 403.47999999999996,
+    "text": "And this tells us how much more likely the cases were exposed to certain diets compared"
+  },
+  {
+    "start": 407.91999999999996,
+    "text": "to the controls."
+  },
+  {
+    "start": 408.91999999999996,
+    "text": "And this one you start with the odd person, that's the way I like to remember this, so"
+  },
+  {
+    "start": 411.59999999999997,
+    "text": "they can then determine the likelihood or evaluate the likelihood of exposure of a risk"
+  },
+  {
+    "start": 415.15999999999997,
+    "text": "factor based on whether or not they have a disease."
+  },
+  {
+    "start": 417.52,
+    "text": "Here are a 16-year-old girl who's brought to the emergency apartment by her father due"
+  },
+  {
+    "start": 420.52,
+    "text": "to confusion and difficulty walking for the past day."
+  },
+  {
+    "start": 423.03999999999996,
+    "text": "She mentioned that she had several illnesses of dizziness for the last months and her"
+  },
+  {
+    "start": 426.4,
+    "text": "grades have dropped significantly."
+  },
+  {
+    "start": 428.44,
+    "text": "On examination, she has nice stigmas, dysmetria, that's whenever you can't and I touch the"
+  },
+  {
+    "start": 432.2,
+    "text": "finger, that somebody else is holding up on the fingers and it is testing."
+  },
+  {
+    "start": 435.44,
+    "text": "And also a wide-based gate."
+  },
+  {
+    "start": 436.59999999999997,
+    "text": "Her speech is slow, she appears lethargic, but she is able to follow a simple command."
+  },
+  {
+    "start": 441.03999999999996,
+    "text": "She has no history of chronic medical conditions."
+  },
+  {
+    "start": 443.12,
+    "text": "Her father says they recently moved and she's been spending more time in the garage working"
+  },
+  {
+    "start": 445.88,
+    "text": "on projects, which the following exposures is most likely responsible for her symptoms."
+  },
+  {
+    "start": 449.52,
+    "text": "This is a really good question."
+  },
+  {
+    "start": 451.12,
+    "text": "Something that not a lot of people know is that inhalant abuse is one of the most underdiagnosed,"
+  },
+  {
+    "start": 456.08,
+    "text": "substance use disorders and teens and it can actually mimic serious neurological diseases."
+  },
+  {
+    "start": 461.47999999999996,
+    "text": "So we have a 16-year-old, she's like confused, a toxic, nesting mist, her grades are slipping"
+  },
+  {
+    "start": 466.2,
+    "text": "and she's been spending a lot of time in the garage working on projects, right?"
+  },
+  {
+    "start": 470.08,
+    "text": "Sounds innocent, but this is going to be glue-sniffing."
+  },
+  {
+    "start": 473.47999999999996,
+    "text": "It's glue-solvent exposure, so it's usually that I'm glue-solvent."
+  },
+  {
+    "start": 476.84,
+    "text": "So this is toluene."
+  },
+  {
+    "start": 477.84,
+    "text": "And that's found in a lot of products like adhesive, paints, and also aerosols."
+  },
+  {
+    "start": 482.56,
+    "text": "And when you inhale it, it damages the cerebellum and the white matter."
+  },
+  {
+    "start": 485.44,
+    "text": "That leads to the exact symptoms we see here, wide-based gate, dysmetria, slow speech,"
+  },
+  {
+    "start": 489.28,
+    "text": "and confusion."
+  },
+  {
+    "start": 490.28,
+    "text": "Okay, so lead would be too chronic and it doesn't hit the cerebellum like this does."
+  },
+  {
+    "start": 495.15999999999997,
+    "text": "Carpamin oxide would be the wrong exposure pattern."
+  },
+  {
+    "start": 497.4,
+    "text": "Mercury is definitely not going to be likely in that group of the setting."
+  },
+  {
+    "start": 500.0,
+    "text": "And carbon monoxide you probably think of like a headache, cherry red skin, a flu-like"
+  },
+  {
+    "start": 504.12,
+    "text": "illness, the benefits of the glows' palitis, novice cerebellum."
+  },
+  {
+    "start": 508.08,
+    "text": "And asbestos would have the pleural plaques and mesothelioma."
+  },
+  {
+    "start": 512.5600000000001,
+    "text": "And it's more of a pulmonary carcinogen."
+  },
+  {
+    "start": 514.72,
+    "text": "And mercury would have like a tremor or psychosis, and that would cause peripheral neuropathy,"
+  },
+  {
+    "start": 519.84,
+    "text": "but not the cerebellar science."
+  },
+  {
+    "start": 521.96,
+    "text": "That's the glue solvents here."
+  },
+  {
+    "start": 523.16,
+    "text": "All right, and this practice question."
+  },
+  {
+    "start": 525.92,
+    "text": "Researchers are evaluating the relationship between smoking habits and COPD."
+  },
+  {
+    "start": 528.64,
+    "text": "They enroll people with different smoking habits and they see what they have."
+  },
+  {
+    "start": 532.04,
+    "text": "And so this is going to be a cohort study because they're analyzing the relative risk."
+  },
+  {
+    "start": 536.52,
+    "text": "The risk always goes with cohort."
+  },
+  {
+    "start": 537.84,
+    "text": "You just have to kind of memorize this."
+  },
+  {
+    "start": 539.48,
+    "text": "Emma gets to the bottom line really quickly because this is super easy."
+  },
+  {
+    "start": 542.0,
+    "text": "Cohort, relative risk, impact of COPD incidents over time, but they're assessing smoking's"
+  },
+  {
+    "start": 547.76,
+    "text": "impact."
+  },
+  {
+    "start": 548.76,
+    "text": "Case control, you start with the disease, case series, you strip the collection of things."
+  },
+  {
+    "start": 552.0,
+    "text": "Cross sectionals, the snapshot in time, and randomized control is the gold standard."
+  },
+  {
+    "start": 555.64,
+    "text": "Super easy question, free points on test day."
+  },
+  {
+    "start": 557.6,
+    "text": "Relative risk goes with cohort."
+  },
+  {
+    "start": 558.8,
+    "text": "Okay, for this next question, we have a 20 year old female who presents the clinic with"
+  },
+  {
+    "start": 562.56,
+    "text": "primary menoria."
+  },
+  {
+    "start": 563.56,
+    "text": "She reports normal breast development starting in age 12, but has never experienced"
+  },
+  {
+    "start": 566.68,
+    "text": "mental period."
+  },
+  {
+    "start": 567.68,
+    "text": "She has noted little to no pubic or axillary, high examination."
+  },
+  {
+    "start": 569.88,
+    "text": "The patient is tall with the height of 180 centimeters."
+  },
+  {
+    "start": 573.76,
+    "text": "Physical examination reveals normal appealing female."
+  },
+  {
+    "start": 575.76,
+    "text": "Extraordinary, but no, palpable uterus is noted on pelvic exam."
+  },
+  {
+    "start": 579.1999999999999,
+    "text": "Serum hormone levels show increased testosterone, lead to zinc hormone, which are the following"
+  },
+  {
+    "start": 582.68,
+    "text": "carry types as most likely present in this patient."
+  },
+  {
+    "start": 585.16,
+    "text": "Very interesting question, right?"
+  },
+  {
+    "start": 586.2399999999999,
+    "text": "So let's do a quick lay of the land."
+  },
+  {
+    "start": 587.8399999999999,
+    "text": "But the way you think about this one is girl on the outside and then die on the inside."
+  },
+  {
+    "start": 591.68,
+    "text": "So primary menoria is going to be commonly occurring in step one as a question."
+  },
+  {
+    "start": 596.28,
+    "text": "And the first question that you should ask is, is the uterus present or is it absent?"
+  },
+  {
+    "start": 599.56,
+    "text": "If the uterus is present, then you think about the outflow tract issues, like an imperfect"
+  },
+  {
+    "start": 603.68,
+    "text": "retirement, transverse septum, that kind of stuff."
+  },
+  {
+    "start": 606.0,
+    "text": "If the uterus is absent, then all of a sudden you're thinking about me learning agenesis,"
+  },
+  {
+    "start": 609.52,
+    "text": "right?"
+  },
+  {
+    "start": 610.52,
+    "text": "That's the 46xx, and you have normal pubic hair versus angrily sensitivity."
+  },
+  {
+    "start": 614.0,
+    "text": "And there you have scant pubic hair."
+  },
+  {
+    "start": 616.0,
+    "text": "And so the case here, we have a couple of conditions that we just have to note."
+  },
+  {
+    "start": 618.88,
+    "text": "And this is the best way to think about this is, is the uterus present or not?"
+  },
+  {
+    "start": 622.56,
+    "text": "So the uterus here is absent and then breast development."
+  },
+  {
+    "start": 625.72,
+    "text": "And then also minimal pubic hair tells us that this is angrily sensitivity."
+  },
+  {
+    "start": 629.72,
+    "text": "So that absent uterus, that helps us understand if it's mullerian agenesis or angrily sensitivity,"
+  },
+  {
+    "start": 635.2,
+    "text": "right?"
+  },
+  {
+    "start": 636.2,
+    "text": "We know it's going to be one of those two things."
+  },
+  {
+    "start": 637.56,
+    "text": "The scant to the absent pubic hair is going to be the hallmark of an angrily receptor defect"
+  },
+  {
+    "start": 642.0,
+    "text": "and then tall female phenotype with an x-pycaryotype is going to be angrily sensitivity."
+  },
+  {
+    "start": 646.72,
+    "text": "And that's why the answer for this question is."
+  },
+  {
+    "start": 648.28,
+    "text": "So in genetics, how this typically will show up as we have an x-linked receptor or an x-linked"
+  },
+  {
+    "start": 652.4,
+    "text": "recessive mutation in the angrily receptor gene."
+  },
+  {
+    "start": 655.0,
+    "text": "And typically you'll see elevated LH and elevated testosterone."
+  },
+  {
+    "start": 657.88,
+    "text": "Why?"
+  },
+  {
+    "start": 658.88,
+    "text": "Because it's in the male range."
+  },
+  {
+    "start": 659.88,
+    "text": "And I'll see how elevated estrogen from the erympathization occurs."
+  },
+  {
+    "start": 662.0799999999999,
+    "text": "So the pathophysi have a mutation of the angrily receptor gene so the body cannot respond"
+  },
+  {
+    "start": 665.8,
+    "text": "to testosterone or to DHT."
+  },
+  {
+    "start": 667.64,
+    "text": "That's usually what's happening here."
+  },
+  {
+    "start": 669.48,
+    "text": "And you have antimullerian hormone from the serotonly cells."
+  },
+  {
+    "start": 672.36,
+    "text": "And that causes the regression of the uterus and the phloetian tubes."
+  },
+  {
+    "start": 675.36,
+    "text": "That's why you do not have those on their on physical exam."
+  },
+  {
+    "start": 678.6800000000001,
+    "text": "And the testosterone is aromatized into estrogen and that's why you get the breast development."
+  },
+  {
+    "start": 682.88,
+    "text": "And there's also this effect of the lack of angestion dependent hair growth."
+  },
+  {
+    "start": 686.04,
+    "text": "Right?"
+  },
+  {
+    "start": 687.04,
+    "text": "There's no internal male structures because there's no DHT signaling."
+  },
+  {
+    "start": 690.48,
+    "text": "And so there are some people and this is where I kind of get frustrated at like the scientific"
+  },
+  {
+    "start": 694.92,
+    "text": "literacy in the population just because they didn't allow for some basic biological facts."
+  },
+  {
+    "start": 699.16,
+    "text": "Which is almost a means we need to know that some people can't have a male carrier type"
+  },
+  {
+    "start": 703.48,
+    "text": "but then they look completely female."
+  },
+  {
+    "start": 705.28,
+    "text": "And that is complete antigen sensitivity hormone, antigen sensitivity syndrome."
+  },
+  {
+    "start": 709.32,
+    "text": "And so it's typically the way this presents is you have somebody who's like relatively"
+  },
+  {
+    "start": 711.9200000000001,
+    "text": "tall, maybe like 20 years old and they have primary menoria."
+  },
+  {
+    "start": 715.64,
+    "text": "They have normal breast development and no uterus on the exam."
+  },
+  {
+    "start": 717.88,
+    "text": "And there's actually an episode of house that I think is very interesting where somebody"
+  },
+  {
+    "start": 721.6800000000001,
+    "text": "had this syndrome."
+  },
+  {
+    "start": 722.6800000000001,
+    "text": "But there's very little pubic or axillary hair and the labs are showing high testosterone"
+  },
+  {
+    "start": 727.36,
+    "text": "and high LH."
+  },
+  {
+    "start": 728.2,
+    "text": "And so the breast development means okay, then we have some estrogen that's hanging around"
+  },
+  {
+    "start": 732.32,
+    "text": "there."
+  },
+  {
+    "start": 733.4000000000001,
+    "text": "And so the testosterone is being aromatized into estrogen but the antigen receptor itself"
+  },
+  {
+    "start": 739.2800000000001,
+    "text": "is defective."
+  },
+  {
+    "start": 740.2800000000001,
+    "text": "And so testosterone itself cannot drive the male development like it would if you did"
+  },
+  {
+    "start": 744.12,
+    "text": "not have this condition."
+  },
+  {
+    "start": 745.36,
+    "text": "And that explains also the absent uterus because we learned inhibiting factor was secrete"
+  },
+  {
+    "start": 748.72,
+    "text": "by the sirtoly cells and it also explains the normal breast but then the scan body here"
+  },
+  {
+    "start": 753.0400000000001,
+    "text": "because that would require the antigen action but that receptor is broken and so you can't"
+  },
+  {
+    "start": 756.84,
+    "text": "do that here."
+  },
+  {
+    "start": 757.84,
+    "text": "And so testosterone is produced normally from the functioning testes right but because"
+  },
+  {
+    "start": 760.64,
+    "text": "of the antigen receptor being defective the hormone cannot exert its masculinizing effects."
+  },
+  {
+    "start": 766.52,
+    "text": "And so you get a big old portion of that testosterone is aromatized into estrogen and it drives the"
+  },
+  {
+    "start": 770.86,
+    "text": "breast development in these patients."
+  },
+  {
+    "start": 772.52,
+    "text": "And so there going to be phenotypically female even though they have the carryotype of the"
+  },
+  {
+    "start": 776.52,
+    "text": "male."
+  },
+  {
+    "start": 777.52,
+    "text": "So the chain is basically of the testes to testosterone which cannot act on the receptor"
+  },
+  {
+    "start": 781.36,
+    "text": "and it's aromatized to estrogen that causes breath development."
+  },
+  {
+    "start": 784.6,
+    "text": "Breast development."
+  },
+  {
+    "start": 785.6,
+    "text": "So here's the bottom line."
+  },
+  {
+    "start": 786.6,
+    "text": "Norea with normal fimondone atylia and elevated testosterone suggests 46 xy carryotype indicating"
+  },
+  {
+    "start": 791.8000000000001,
+    "text": "adrogen and sensitivity hormone syndrome."
+  },
+  {
+    "start": 793.88,
+    "text": "Alright in our next practice question we have a 54 year old woman presenting to her primary"
+  },
+  {
+    "start": 797.64,
+    "text": "care physician with complaints of chronic joint pain recently worsening fatigue and a"
+  },
+  {
+    "start": 801.84,
+    "text": "15 pound unintended weight loss over the past three months."
+  },
+  {
+    "start": 805.28,
+    "text": "She also mentions that her skin has become darker over the past year."
+  },
+  {
+    "start": 808.16,
+    "text": "You know these are just to think of bronze skin."
+  },
+  {
+    "start": 810.44,
+    "text": "Her father had diabetes and died of liver disease."
+  },
+  {
+    "start": 812.36,
+    "text": "Yep."
+  },
+  {
+    "start": 813.36,
+    "text": "And then in the skin is bronze."
+  },
+  {
+    "start": 814.72,
+    "text": "She has palpable tenderness over the second and third metadel joints AST 95 a.o."
+  },
+  {
+    "start": 819.6800000000001,
+    "text": "T 102."
+  },
+  {
+    "start": 820.6800000000001,
+    "text": "Ferritin Azet 1500."
+  },
+  {
+    "start": 822.6800000000001,
+    "text": "Total iron binding capacity is 180 and transplant saturation is 85%."
+  },
+  {
+    "start": 827.32,
+    "text": "Liberal ultrasound shows mild to patamegaly which is the volume's most likely pathological"
+  },
+  {
+    "start": 830.84,
+    "text": "process caused in this patient's condition."
+  },
+  {
+    "start": 832.44,
+    "text": "Alright there's some classic triads that we should be aware of."
+  },
+  {
+    "start": 835.88,
+    "text": "One is that we have bronze diabetes in the skin."
+  },
+  {
+    "start": 838.6,
+    "text": "We have the hyperpigmentation diabetes and liver disease right."
+  },
+  {
+    "start": 842.56,
+    "text": "That's the triad the skin hyperpigmentation diabetes and liver disease that is hemochromatosis"
+  },
+  {
+    "start": 847.1199999999999,
+    "text": "triad."
+  },
+  {
+    "start": 848.1199999999999,
+    "text": "And the pathogenesis is this genetically increases the intestinal iron absorption and"
+  },
+  {
+    "start": 852.28,
+    "text": "so the answer is going to be D."
+  },
+  {
+    "start": 854.16,
+    "text": "So the way the land here is that we have a primer."
+  },
+  {
+    "start": 856.68,
+    "text": "We have a primary complaint of chronic joint pain."
+  },
+  {
+    "start": 859.1199999999999,
+    "text": "They got the joint pain."
+  },
+  {
+    "start": 860.1199999999999,
+    "text": "They got the weight loss and fatigue on exam."
+  },
+  {
+    "start": 863.16,
+    "text": "You see the bronze skin and the tender MCP joints and the have patamegaly is elevated AST"
+  },
+  {
+    "start": 868.36,
+    "text": "very high ferritin and low total iron binding content and a high transfer and saturation"
+  },
+  {
+    "start": 874.0,
+    "text": "and all that points to iron overload."
+  },
+  {
+    "start": 876.12,
+    "text": "It's a disorder that's caused by the increased intestinal absorption of iron because you"
+  },
+  {
+    "start": 879.6,
+    "text": "have a mutation of the HFE gene."
+  },
+  {
+    "start": 881.84,
+    "text": "And so really the big takeaway here is that bronze skin that's like very pathomonic"
+  },
+  {
+    "start": 886.5600000000001,
+    "text": "for this."
+  },
+  {
+    "start": 887.72,
+    "text": "The increased melanin causing the hyperpigmentation and also the diabetes and liver disease"
+  },
+  {
+    "start": 891.6800000000001,
+    "text": "bronze diabetes."
+  },
+  {
+    "start": 892.6800000000001,
+    "text": "And that's caused because the iron damages the pancreatic beta cells and have out of"
+  },
+  {
+    "start": 896.48,
+    "text": "the sites and you can also have MCP joint joint pain and that's because of the pseudo"
+  },
+  {
+    "start": 901.5600000000001,
+    "text": "gout."
+  },
+  {
+    "start": 902.5600000000001,
+    "text": "You get the arthoropathy which basically is just like I don't know anything that affects"
+  },
+  {
+    "start": 905.04,
+    "text": "the joints arthoropathy and that's because of the calcium pyrophosphate deposition and"
+  },
+  {
+    "start": 909.48,
+    "text": "the increased ferritin, increased transfer and the decreased T.I.B.C. is the hallmark"
+  },
+  {
+    "start": 914.0,
+    "text": "of iron overload."
+  },
+  {
+    "start": 915.24,
+    "text": "And so there is an HFE mutation, it's a gene mutation and it has some co-morbidities."
+  },
+  {
+    "start": 920.04,
+    "text": "There's a patocyte of their carcinoma risk."
+  },
+  {
+    "start": 921.8000000000001,
+    "text": "It's 200 times increased."
+  },
+  {
+    "start": 924.0400000000001,
+    "text": "There's also the restrictive and dilated cardiomyopathy and to stick their atrophy."
+  },
+  {
+    "start": 928.5200000000001,
+    "text": "And the epidemiology is that there's an autosomerscessive disease and it's more common for people"
+  },
+  {
+    "start": 932.88,
+    "text": "of northern European descent."
+  },
+  {
+    "start": 934.4000000000001,
+    "text": "So you get the mutation and then the enterocytes, the gut cells, they sense the low iron and"
+  },
+  {
+    "start": 938.9200000000001,
+    "text": "so they increase and this is a little bit beyond the scope of DM21 and ferreportant and"
+  },
+  {
+    "start": 943.6,
+    "text": "that increases the iron absorption in the intestinal cells and that causes iron overload and"
+  },
+  {
+    "start": 948.96,
+    "text": "it deposits in the parankhamal cells, right?"
+  },
+  {
+    "start": 951.1600000000001,
+    "text": "The functional tissue cells like in the skin, the joints, the heart."
+  },
+  {
+    "start": 955.64,
+    "text": "And you get reactive oxygenation species formation and organ fibrosis, which leads to cirrhosis"
+  },
+  {
+    "start": 959.76,
+    "text": "and diabetes and cardiomegaly and so you get bronzed diabetes and cirrhosis and cancer"
+  },
+  {
+    "start": 963.36,
+    "text": "risk."
+  },
+  {
+    "start": 964.36,
+    "text": "Alright, so here is the bottom line genetically increased iron absorption leads to hemochromatosis"
+  },
+  {
+    "start": 968.36,
+    "text": "causing joint pain fatigue and skin changes."
+  },
+  {
+    "start": 970.0400000000001,
+    "text": "And the next question may have a three day old newborn girl brought to the emergency department"
+  },
+  {
+    "start": 973.84,
+    "text": "by her parents due to increased lethargy, poor feeding and vomiting."
+  },
+  {
+    "start": 977.24,
+    "text": "The infant was born at term via uncomplicated delivery and initially did well on the nursery."
+  },
+  {
+    "start": 983.16,
+    "text": "On examination she's sleepy, minimally responsive with mild lipop lab studies show revealed"
+  },
+  {
+    "start": 987.48,
+    "text": "reveal elevated blood at many levels and metabolic acidosis."
+  },
+  {
+    "start": 990.64,
+    "text": "Your analysis shows increased excretion of erotic acid and a genetic analysis reveals"
+  },
+  {
+    "start": 995.16,
+    "text": "a mutation consistent with a disorder affecting the a specific enzymatic step, which is the"
+  },
+  {
+    "start": 999.36,
+    "text": "following conversions is most likely impaired in his infant."
+  },
+  {
+    "start": 1002.5600000000001,
+    "text": "Alright, so we have a new innate, which by the way is just a way of saying a newborn child"
+  },
+  {
+    "start": 1007.16,
+    "text": "for a cure actually be like any mammal that's newborn and they have vomiting, lethargy,"
+  },
+  {
+    "start": 1011.56,
+    "text": "so they have a lack of energy and enthusiasm."
+  },
+  {
+    "start": 1013.64,
+    "text": "They got elevated ammonia and so you have to think of the urea acid cycle."
+  },
+  {
+    "start": 1017.76,
+    "text": "Your urea cycle disorders."
+  },
+  {
+    "start": 1018.9599999999999,
+    "text": "And this is probably like an OTC deficiency."
+  },
+  {
+    "start": 1021.0,
+    "text": "We have high ammonia and that's obvious because the urea cycle is blocked."
+  },
+  {
+    "start": 1025.36,
+    "text": "You've been blocked."
+  },
+  {
+    "start": 1026.36,
+    "text": "An erotic aciduria that's excess carbon wall phosphate that's shunted into the pyridamine"
+  },
+  {
+    "start": 1030.96,
+    "text": "synthesis pathway and also there's no megaloblastic anemia and that distinguishes this from her"
+  },
+  {
+    "start": 1035.72,
+    "text": "reditary orotic aciduria."
+  },
+  {
+    "start": 1037.96,
+    "text": "And so the enzyme step affected is transcarbonalase and that's the conversion of carbamol phosphates"
+  },
+  {
+    "start": 1044.16,
+    "text": "and ornithine to citrally."
+  },
+  {
+    "start": 1046.08,
+    "text": "And the most important kind of buzzy words here is that there's a three day old vomiting,"
+  },
+  {
+    "start": 1049.56,
+    "text": "lethargy and that means that it's probably some sort of a metabolic disorder."
+  },
+  {
+    "start": 1053.52,
+    "text": "And so we have increased ammonia and metabolic acidosis and that means that it's a urea cycle"
+  },
+  {
+    "start": 1058.56,
+    "text": "defect and erotic acid in the urine means that we have excess carbamol phosphate that"
+  },
+  {
+    "start": 1064.24,
+    "text": "is diverted to pyridamine pathway."
+  },
+  {
+    "start": 1067.04,
+    "text": "And the lack of anemia means that it's not erotic aciduria or like a UMPs and days deficiency."
+  },
+  {
+    "start": 1072.4,
+    "text": "OTC deficiency is excellent or excessive and basically we have that OTC problem and then"
+  },
+  {
+    "start": 1076.52,
+    "text": "that leads to the carbamol phosphate accumulation and then overflow then goes into pyridamine synthesis"
+  },
+  {
+    "start": 1082.68,
+    "text": "and then that increases the erotic acid in the urine."
+  },
+  {
+    "start": 1085.36,
+    "text": "So the urea cycle is blocked and that causes the ammonia build up and that's neurotoxic."
+  },
+  {
+    "start": 1088.84,
+    "text": "And if it's a UMPs and days deficiency then you would see oliblastic anemia."
+  },
+  {
+    "start": 1092.24,
+    "text": "So for this type of question you're going to see newborns that are totally fine at birth"
+  },
+  {
+    "start": 1096.04,
+    "text": "but then they start to have vomiting, lethargy and high ammonia and it's because of that"
+  },
+  {
+    "start": 1099.8,
+    "text": "urea cycle disorder."
+  },
+  {
+    "start": 1100.8,
+    "text": "And it's important too because they have erotic acid in the urine and that means that"
+  },
+  {
+    "start": 1103.76,
+    "text": "carbamol phosphate is building up and it's spilling into the pyridamine synthesis."
+  },
+  {
+    "start": 1107.44,
+    "text": "And so that's the super signature look like the diagnostic criteria for ornithane trans"
+  },
+  {
+    "start": 1111.52,
+    "text": "carbamol and deficiency."
+  },
+  {
+    "start": 1112.52,
+    "text": "And that's why our answer is our citralline to arginine assassinate."
+  },
+  {
+    "start": 1116.44,
+    "text": "And all these other options aren't going to explain erotic aciduria with hyper ammonia."
+  },
+  {
+    "start": 1120.56,
+    "text": "So here's your arginine assassinate right there."
+  },
+  {
+    "start": 1122.96,
+    "text": "carbamol phosphate synthase synthetase into your ornithane trans carbamolase leading to"
+  },
+  {
+    "start": 1127.76,
+    "text": "this."
+  },
+  {
+    "start": 1128.76,
+    "text": "So it's citralline to arginine assassinate right here."
+  },
+  {
+    "start": 1130.76,
+    "text": "So they're asking which conversion is most likely impaired in this infant?"
+  },
+  {
+    "start": 1133.76,
+    "text": "The big thing to know about the urea acid cycle or the urea cycle is the carbamol phosphate"
+  },
+  {
+    "start": 1138.9199999999998,
+    "text": "synthesis one is the rate limiting step."
+  },
+  {
+    "start": 1140.9199999999998,
+    "text": "This part occurs in the mitochondria and this part is in the cytoplasm."
+  },
+  {
+    "start": 1143.3999999999999,
+    "text": "So here's a really nice photo, a really nice diagram of what occurs in the mitochondria"
+  },
+  {
+    "start": 1148.0,
+    "text": "and what goes out to the urine."
+  },
+  {
+    "start": 1150.44,
+    "text": "Because the whole pathway, starting with this rate limiting step right here, carbamol"
+  },
+  {
+    "start": 1154.48,
+    "text": "phosphate synthase synthase one, you start with ammonia and you get carbamol phosphate,"
+  },
+  {
+    "start": 1159.0,
+    "text": "arginine assassinate to arginine to ornithane."
+  },
+  {
+    "start": 1161.4,
+    "text": "And there are enzymes that govern each step."
+  },
+  {
+    "start": 1163.56,
+    "text": "And so when you're dealing with the urea cycle, hyper ammonia is going to explain the"
+  },
+  {
+    "start": 1167.2,
+    "text": "lethargy, the vomiting, the poor feeding and the bremol phosphate shunted into the"
+  },
+  {
+    "start": 1170.8400000000001,
+    "text": "pyramene synthesis will produce excess erotic acid."
+  },
+  {
+    "start": 1174.24,
+    "text": "And so this step right here is the one that's kind of damaged."
+  },
+  {
+    "start": 1177.44,
+    "text": "Alright, and the next question we have a 60 year old male presenting to his PCP with"
+  },
+  {
+    "start": 1181.68,
+    "text": "difficulty holding liquid in his mouth while drinking, which began following a recent"
+  },
+  {
+    "start": 1185.88,
+    "text": "dental procedure."
+  },
+  {
+    "start": 1186.88,
+    "text": "He knows that the left side of his face feels weak."
+  },
+  {
+    "start": 1188.8,
+    "text": "On exam, there is decreased movement on the left corner of his mouth and the patient"
+  },
+  {
+    "start": 1192.44,
+    "text": "is unable to completely close his lips on the left side."
+  },
+  {
+    "start": 1195.0800000000002,
+    "text": "There are no sensory abnormalities in the face, which is the following cranial nerves"
+  },
+  {
+    "start": 1198.04,
+    "text": "and branches as most likely affected."
+  },
+  {
+    "start": 1199.72,
+    "text": "Boy, we love those cranial nerves, don't we?"
+  },
+  {
+    "start": 1201.44,
+    "text": "So it seems like there's some facial expression weakness without any sensory loss and so we're"
+  },
+  {
+    "start": 1205.04,
+    "text": "probably dealing with a motor branch and we have cranial nerve seven with a motor branch"
+  },
+  {
+    "start": 1208.8799999999999,
+    "text": "and there's difficulty holding liquids in the mouth."
+  },
+  {
+    "start": 1211.12,
+    "text": "That's probably an orbicularis ores weakness."
+  },
+  {
+    "start": 1213.36,
+    "text": "That's the facial nerve."
+  },
+  {
+    "start": 1214.36,
+    "text": "And so anytime a patient is presenting with unilateral facial weakness, the first step"
+  },
+  {
+    "start": 1217.68,
+    "text": "is to ask is it motor only like the cranial nerve seven motor branch lesion or it"
+  },
+  {
+    "start": 1222.2,
+    "text": "also involves sensation."
+  },
+  {
+    "start": 1223.6,
+    "text": "And there you can think of maybe the trigeminal nerve, you know, cranial nerve five, but"
+  },
+  {
+    "start": 1227.96,
+    "text": "here there is no sensory loss and that rules how the trigeminal nerve divisions."
+  },
+  {
+    "start": 1231.56,
+    "text": "And that's how we know that it's not the trigeminal nerve here or the trigeminal"
+  },
+  {
+    "start": 1234.36,
+    "text": "or there."
+  },
+  {
+    "start": 1235.28,
+    "text": "So B and D are not out."
+  },
+  {
+    "start": 1236.28,
+    "text": "And our taste is also not mentioned and so the cordia tempani is not going to be at the"
+  },
+  {
+    "start": 1239.76,
+    "text": "culprit."
+  },
+  {
+    "start": 1240.76,
+    "text": "And there's also weakness localized to the lower lip area and that's the marginal mandibular"
+  },
+  {
+    "start": 1244.3799999999999,
+    "text": "branch of cranial nerve seven."
+  },
+  {
+    "start": 1246.44,
+    "text": "And so there's a weakness of the lips, you can't hold on liquids and so that's the orbicularis"
+  },
+  {
+    "start": 1250.44,
+    "text": "ores dysfunction."
+  },
+  {
+    "start": 1251.44,
+    "text": "There's no sensory deficit and so it's not going to be trigeminal."
+  },
+  {
+    "start": 1255.08,
+    "text": "And that history of the dental procedure means that the local anesthesia can actually injure"
+  },
+  {
+    "start": 1259.16,
+    "text": "the nearby facial nerve branches."
+  },
+  {
+    "start": 1260.72,
+    "text": "So there are some associations you should know on test say like the bucule branch of"
+  },
+  {
+    "start": 1263.88,
+    "text": "the cranial nerve seven and that controls the buck's the upper lip muscle and there's"
+  },
+  {
+    "start": 1268.48,
+    "text": "also like the lingmal nerve right cranial nerve five three that's the tongue sensation"
+  },
+  {
+    "start": 1272.3600000000001,
+    "text": "on the anterior two thirds of the tongue and the cordia tempani is cranial nerve seven."
+  },
+  {
+    "start": 1277.4,
+    "text": "That's the taste anterior two thirds of the tongue of the parasympathetic to the sub end"
+  },
+  {
+    "start": 1280.72,
+    "text": "to be in the sublingual glands."
+  },
+  {
+    "start": 1282.28,
+    "text": "So there's some other nerves that are high yield and come up all the time."
+  },
+  {
+    "start": 1285.16,
+    "text": "But here the path of physiology is that you go to these entists."
+  },
+  {
+    "start": 1288.8,
+    "text": "I am your de entist."
+  },
+  {
+    "start": 1291.04,
+    "text": "I was in little trouble horrors and I just think of that every time I think of it."
+  },
+  {
+    "start": 1294.0,
+    "text": "But basically there's a local anesthetic or some sort of dental trauma that damages the"
+  },
+  {
+    "start": 1297.52,
+    "text": "marginal and the debular branch of cranial nerve seven."
+  },
+  {
+    "start": 1299.48,
+    "text": "I'm not going to ask my brother about this."
+  },
+  {
+    "start": 1300.84,
+    "text": "He's at the end of school."
+  },
+  {
+    "start": 1301.84,
+    "text": "And there's a loss of motor supply to the obicularis ores, the lower lip muscles, these"
+  },
+  {
+    "start": 1307.22,
+    "text": "guys right here."
+  },
+  {
+    "start": 1308.22,
+    "text": "And the patients cannot keep the lips sealed."
+  },
+  {
+    "start": 1310.72,
+    "text": "So liquid is just going to be dribbling down their mouth."
+  },
+  {
+    "start": 1313.12,
+    "text": "And so there's a cranial nerve seven motor lesion and there's difficulty holding the"
+  },
+  {
+    "start": 1315.92,
+    "text": "liquid in."
+  },
+  {
+    "start": 1316.92,
+    "text": "No sensory loss."
+  },
+  {
+    "start": 1317.92,
+    "text": "Bools out."
+  },
+  {
+    "start": 1318.92,
+    "text": "Crane or five involvement."
+  },
+  {
+    "start": 1319.92,
+    "text": "So the big thing, lower lip muscle, motor nerve, cranial nerve seven, marginal mandibular"
+  },
+  {
+    "start": 1324.48,
+    "text": "branch of the facial nerve."
+  },
+  {
+    "start": 1327.3200000000002,
+    "text": "And that's our answer, e."
+  },
+  {
+    "start": 1328.6000000000001,
+    "text": "So it makes it so you can't seal your lips."
+  },
+  {
+    "start": 1330.48,
+    "text": "And so the drinks will leak out."
+  },
+  {
+    "start": 1332.8400000000001,
+    "text": "All right."
+  },
+  {
+    "start": 1333.8400000000001,
+    "text": "And this question we have a three year old girl has brought to the clinic by her parents"
+  },
+  {
+    "start": 1336.68,
+    "text": "due to persistent coughing fits."
+  },
+  {
+    "start": 1338.0800000000002,
+    "text": "They describe the child as having episodes of intense coughing followed by a high pitched"
+  },
+  {
+    "start": 1341.8000000000002,
+    "text": "whooping sound when she enails."
+  },
+  {
+    "start": 1343.8,
+    "text": "The child has a recent upper respiratory tract infection."
+  },
+  {
+    "start": 1346.32,
+    "text": "Vaccination status is not up to date and her parents have delayed some immunizations."
+  },
+  {
+    "start": 1350.6399999999999,
+    "text": "On examination, the child is alert but periodically has proxisms of coughing."
+  },
+  {
+    "start": 1355.3999999999999,
+    "text": "Lab says leukocyte counts of 28,000 with 65% lymphocytes."
+  },
+  {
+    "start": 1360.24,
+    "text": "Which enzyme is likely upregulated leading to the dysfunction in the immune response due"
+  },
+  {
+    "start": 1365.72,
+    "text": "to the increased cyclic adenosine monoflospate levels, the camp levels."
+  },
+  {
+    "start": 1369.76,
+    "text": "All right."
+  },
+  {
+    "start": 1370.76,
+    "text": "So let's talk about whooping cough and camp stuff."
+  },
+  {
+    "start": 1372.96,
+    "text": "The classic proxysmal cough with the respiratory and the lymphocytosis in a child without"
+  },
+  {
+    "start": 1377.96,
+    "text": "full vaccinations is going to be boredella pertussis."
+  },
+  {
+    "start": 1381.32,
+    "text": "That's why you got to get your vaccinations, folks."
+  },
+  {
+    "start": 1383.08,
+    "text": "Here Trump recently announced that Tylenol is linked to autism and said he shouldn't"
+  },
+  {
+    "start": 1387.3600000000001,
+    "text": "even use it."
+  },
+  {
+    "start": 1388.3600000000001,
+    "text": "And he couldn't even say acetaminophen."
+  },
+  {
+    "start": 1389.3600000000001,
+    "text": "I mean, it's just scary when somebody that incompetent is in charge of actual health"
+  },
+  {
+    "start": 1393.8,
+    "text": "concerns."
+  },
+  {
+    "start": 1394.8,
+    "text": "The problem is that in order to understand the mechanism of action of acetaminophen,"
+  },
+  {
+    "start": 1398.08,
+    "text": "you have to know a lot of other things."
+  },
+  {
+    "start": 1399.96,
+    "text": "Like how do you talk about the napQI accumulation and glutathione reduction, only in excess to"
+  },
+  {
+    "start": 1405.24,
+    "text": "somebody who doesn't even know where the liver is?"
+  },
+  {
+    "start": 1407.3600000000001,
+    "text": "Anyways, I digress."
+  },
+  {
+    "start": 1408.44,
+    "text": "The pathogenesis here is the pertussis toxin ADP ribosolates the GI protein."
+  },
+  {
+    "start": 1414.4,
+    "text": "So basically it has this ADP ribosmoadis to that target molecule."
+  },
+  {
+    "start": 1418.72,
+    "text": "And that will inhibit GI."
+  },
+  {
+    "start": 1420.24,
+    "text": "So you get uninhibited, doing a little cyclase inhibited activity."
+  },
+  {
+    "start": 1425.52,
+    "text": "And so you get increased camp and you have impaired figure site function."
+  },
+  {
+    "start": 1429.12,
+    "text": "And the lay of land here for Pradella, Bordella pertussis is of course you have that cough,"
+  },
+  {
+    "start": 1434.52,
+    "text": "the exosmo cough and the insubitory whooping sound."
+  },
+  {
+    "start": 1437.7199999999998,
+    "text": "And also the marked lymphocytosis."
+  },
+  {
+    "start": 1438.7199999999998,
+    "text": "And you have incomplete vaccination history."
+  },
+  {
+    "start": 1442.08,
+    "text": "So those three things are the biggest ways that they'll test you on this first step on"
+  },
+  {
+    "start": 1445.9599999999998,
+    "text": "step one."
+  },
+  {
+    "start": 1446.9599999999998,
+    "text": "And the key mechanism you also have to know is increased camp."
+  },
+  {
+    "start": 1450.1599999999999,
+    "text": "It's the increased interest cellular camp levels in the immune cells and that paralyzes"
+  },
+  {
+    "start": 1453.4399999999998,
+    "text": "the ability to phagocytosis and clear bacteria."
+  },
+  {
+    "start": 1456.8,
+    "text": "So whooping cough, proxysmo cough, that's the repeated like machine gun coughing fits."
+  },
+  {
+    "start": 1462.72,
+    "text": "Lymphocytosis and unvaccinated child means that they have a high risk for this."
+  },
+  {
+    "start": 1467.04,
+    "text": "And so there's a pertussis toxin that disables GI and it increases camp and it impairs"
+  },
+  {
+    "start": 1472.24,
+    "text": "neutrophil recruitment."
+  },
+  {
+    "start": 1473.24,
+    "text": "The DNA cycle is toxin, directly increases camp."
+  },
+  {
+    "start": 1476.76,
+    "text": "And so that's like an association should definitely know."
+  },
+  {
+    "start": 1479.1599999999999,
+    "text": "And there's some complications here like pneumonia, seizures and cephalopathy due to"
+  },
+  {
+    "start": 1482.36,
+    "text": "hypoxia."
+  },
+  {
+    "start": 1483.36,
+    "text": "And to prevent this, you just give them the deep pack vaccine, right?"
+  },
+  {
+    "start": 1486.4799999999998,
+    "text": "The deep tap vaccine because that will contain acetylipotussis antigens."
+  },
+  {
+    "start": 1489.6799999999998,
+    "text": "And so you're good to go."
+  },
+  {
+    "start": 1490.6799999999998,
+    "text": "But you have the pertussis toxin and then the ADP, I bossulates the GI protein."
+  },
+  {
+    "start": 1495.7199999999998,
+    "text": "The GI inhibition leads to unchecked adrenalin cyclase activity that increases the camp"
+  },
+  {
+    "start": 1499.6399999999999,
+    "text": "inside of the host cells."
+  },
+  {
+    "start": 1500.6399999999999,
+    "text": "And it pairs phagocytosis causes massive lymphocytosis."
+  },
+  {
+    "start": 1503.6399999999999,
+    "text": "Sorry, I think I said the wrong."
+  },
+  {
+    "start": 1504.9199999999998,
+    "text": "It impairs phagocytosis and causes massive lymphocytosis."
+  },
+  {
+    "start": 1509.52,
+    "text": "And that leads to a persistent infection."
+  },
+  {
+    "start": 1511.64,
+    "text": "So that pertussis toxin increases the camp, get whooping cough, vomiting."
+  },
+  {
+    "start": 1516.64,
+    "text": "You just gotta get your vaccines."
+  },
+  {
+    "start": 1518.0,
+    "text": "All right."
+  },
+  {
+    "start": 1519.0,
+    "text": "And so the answer is going to be adrenalin cyclase."
+  },
+  {
+    "start": 1522.92,
+    "text": "Good question is why is not catellase?"
+  },
+  {
+    "start": 1524.4,
+    "text": "Well catellase breaks down H202 and sets of relevance and chronic granulitis disease,"
+  },
+  {
+    "start": 1529.48,
+    "text": "not pertussis."
+  },
+  {
+    "start": 1530.48,
+    "text": "Lactate dehydrogenase is a marker of cell damage and it's not actually involved in pertussis."
+  },
+  {
+    "start": 1535.48,
+    "text": "G6 PD."
+  },
+  {
+    "start": 1537.32,
+    "text": "That deficiency there causes himalosis with oxidative stress, not coughing and lymphocytosis."
+  },
+  {
+    "start": 1542.64,
+    "text": "And superoxide, dismutease, is an antioxidant defense not related to the pertussis toxin."
+  },
+  {
+    "start": 1548.2,
+    "text": "So it's really that just pertussis toxin sabotaging the immune cells by the robosolation"
+  },
+  {
+    "start": 1552.44,
+    "text": "of the GI protein."
+  },
+  {
+    "start": 1553.84,
+    "text": "And normally the GI breaks the adrenalin cyclase."
+  },
+  {
+    "start": 1556.88,
+    "text": "But when that's disabled, the adrenalin cyclase just goes wild, like crazy."
+  },
+  {
+    "start": 1560.3600000000001,
+    "text": "And now you get like insane levels of camp in your system and that paralyzes the phagocytes"
+  },
+  {
+    "start": 1564.68,
+    "text": "and it prevents the bacterial clearance."
+  },
+  {
+    "start": 1567.16,
+    "text": "And then you get lymphocytosis during a bacterial infection."
+  },
+  {
+    "start": 1569.4,
+    "text": "All right, I think we're ready for our bottom line."
+  },
+  {
+    "start": 1571.88,
+    "text": "Wiping cough and an unvaccinated child is due to bortella pertussis, which up regulates"
+  },
+  {
+    "start": 1578.6000000000001,
+    "text": "adrenalin cyclase and increases camp levels."
+  },
+  {
+    "start": 1581.04,
+    "text": "So I know there's just an agenery to kiddo, but holy cow vaccinating your children."
+  },
+  {
+    "start": 1585.0800000000002,
+    "text": "The biggest risk factor for bortella pertussis is stupid parents."
+  },
+  {
+    "start": 1588.0800000000002,
+    "text": "And we'll see you guys."
+  },
+  {
+    "start": 1589.0800000000002,
+    "text": "Oh, I might actually make another song if you guys like that."
+  },
+  {
+    "start": 1592.0,
+    "text": "Kind of a fun way to kind of recap all of these questions."
+  },
+  {
+    "start": 1595.08,
+    "text": "It's kind of a fun way to make sure that you get the key facts from these last 10 questions."
+  },
+  {
+    "start": 1599.36,
+    "text": "So I'm going to go ahead and make that song for you guys."
+  },
+  {
+    "start": 1602.36,
+    "text": "If you think this is helpful, if you like this content, please like and subscribe."
+  },
+  {
+    "start": 1605.64,
+    "text": "If not, let me know how I can improve."
+  },
+  {
+    "start": 1607.12,
+    "text": "I'm always trying to improve my goals to help you past step one step two and increase"
+  },
+  {
+    "start": 1611.28,
+    "text": "both the quantity and quality of content out there that'll help you prepare as affordably"
+  },
+  {
+    "start": 1614.96,
+    "text": "as possible."
+  },
+  {
+    "start": 1616.24,
+    "text": "We got to increase scientific literacy in this country."
+  },
+  {
+    "start": 1618.36,
+    "text": "So without further ado, please enjoy the song."
+  },
+  {
+    "start": 1622.12,
+    "text": "Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh."
+  },
+  {
+    "start": 1631.36,
+    "text": "Free broth is in the skin, hearts different size."
+  },
+  {
+    "start": 1636.48,
+    "text": "The historic compliance takes the die."
+  },
+  {
+    "start": 1638.56,
+    "text": "Home pressurizes vessels constrict high."
+  },
+  {
+    "start": 1647.44,
+    "text": "Her own irresistence climbs in the night"
+  },
+  {
+    "start": 1652.1200000000001,
+    "text": "Fast twitch fibers oxygen low"
+  },
+  {
+    "start": 1654.6000000000001,
+    "text": "Nadiation and lust glee calluses flow"
+  },
+  {
+    "start": 1657.24,
+    "text": "Pirate the lactate, acid builds fast"
+  },
+  {
+    "start": 1660.28,
+    "text": "Burn in the quads but the energy last met a congeal code"
+  },
+  {
+    "start": 1664.04,
+    "text": "From mama passed down, tear in the main mutation"
+  },
+  {
+    "start": 1666.52,
+    "text": "Makes the body shut down, stroke like seizures"
+  },
+  {
+    "start": 1669.52,
+    "text": "Like the acidosis flame, ragged red fibers"
+  },
+  {
+    "start": 1672.24,
+    "text": "Millises the name, militant incline"
+  },
+  {
+    "start": 1674.24,
+    "text": "50 over 3300 over 7"
+  },
+  {
+    "start": 1676.64,
+    "text": "Multiplied out the rich, just 3.8 heaven"
+  },
+  {
+    "start": 1679.28,
+    "text": "Case control style, odds not a risk"
+  },
+  {
+    "start": 1681.8,
+    "text": "Know the formula clean, that's a test, make a trick"
+  },
+  {
+    "start": 1684.64,
+    "text": "Glue sniffing, see with confusion and sway"
+  },
+  {
+    "start": 1687.4,
+    "text": "Broad-based gates, school grades decay"
+  },
+  {
+    "start": 1690.0,
+    "text": "Cerebellum hit, headaches in time"
+  },
+  {
+    "start": 1692.6,
+    "text": "Bronskins not here, it's solving grind"
+  },
+  {
+    "start": 1695.0,
+    "text": "Follow the groups, expose the key"
+  },
+  {
+    "start": 1697.32,
+    "text": "Exercise halves, amides you see"
+  },
+  {
+    "start": 1700.04,
+    "text": "Relative risk, from incident snow"
+  },
+  {
+    "start": 1702.64,
+    "text": "Coordesign when outcomes are shown"
+  },
+  {
+    "start": 1705.2800000000002,
+    "text": "And ropses in sensitivity, 46X-Y"
+  },
+  {
+    "start": 1708.44,
+    "text": "But looking like she, no uterus inside"
+  },
+  {
+    "start": 1711.1200000000001,
+    "text": "But breasts you see, test dust, the runner"
+  },
+  {
+    "start": 1713.48,
+    "text": "Romantic ties, hair and scares, A.I.S. answer"
+  },
+  {
+    "start": 1715.96,
+    "text": "Genetics and fair"
+  },
+  {
+    "start": 1717.48,
+    "text": "Himmokromatosis, hiring over low"
+  },
+  {
+    "start": 1725.96,
+    "text": "Bronzekin shine, Sir Hardick liver"
+  },
+  {
+    "start": 1731.4,
+    "text": "Pancreas decline"
+  },
+  {
+    "start": 1734.0800000000002,
+    "text": "H12th augmentation, gut absorbs too much"
+  },
+  {
+    "start": 1737.88,
+    "text": "Buried in high joints, hurts at a turn"
+  },
+  {
+    "start": 1741.0800000000002,
+    "text": "On the team, can't meet Carbomoyal fate"
+  },
+  {
+    "start": 1743.72,
+    "text": "Arotic acid rises, ammonia is great"
+  },
+  {
+    "start": 1746.72,
+    "text": "Baby lethargic seizures might hit"
+  },
+  {
+    "start": 1749.1200000000001,
+    "text": "OTC deficiency, ure year can't fix it"
+  },
+  {
+    "start": 1751.96,
+    "text": "Heroxys and more carb with the whooping tone"
+  },
+  {
+    "start": 1754.6000000000001,
+    "text": "Unbatchinated kid, white count grown"
+  },
+  {
+    "start": 1757.3200000000002,
+    "text": "Protusses, toxin, G gets Friday"
+  },
+  {
+    "start": 1759.8,
+    "text": "Any little cyclase can't worldwide"
+  }
+]

@@ -1,126 +1,98 @@
-# YouTube Chapter Generator - Project Overview
+# YouTube Chapter Generator Project
 
-## 🎯 Purpose
-This project automatically generates intelligent chapters for YouTube videos using AI analysis. It's particularly useful for educational content, long-form videos, and content creation.
+## Overview
+A streamlined tool for automatically generating YouTube chapters from video transcripts using Whisper transcription and AI analysis. Optimized for educational content, particularly medical education videos like USMLE Step 1 preparation materials.
 
-## 📁 Project Structure
+## Current Architecture
 
+### Core Component
+- **generate_youtube_chapters.py** - Single, comprehensive script handling the entire workflow
+
+### Key Features
+- **Whisper Transcription** - High-quality audio-to-text conversion
+- **AI Chapter Generation** - Content-aware chapter creation using GPT-4
+- **Timestamp Alignment** - Precise chapter timing based on transcript segments
+- **Multiple Formats** - Support for general videos and Q&A structured content
+
+## Workflow
+
+1. **Audio Extraction** - Downloads audio from YouTube using yt-dlp
+2. **Transcription** - Uses OpenAI Whisper for accurate speech-to-text
+3. **AI Analysis** - Analyzes transcript to identify topic introduction points
+4. **Chapter Generation** - Creates chapters with 4-word maximum titles
+5. **Timestamp Alignment** - Snaps chapter marks to exact transcript boundaries
+6. **Output** - Saves ready-to-use YouTube chapters
+
+## Content Types Supported
+
+### General Educational Videos
+- Long-form lectures and tutorials
+- Multi-topic educational content
+- Medical education and exam prep
+- Academic presentations
+
+### Q&A Format Videos
+- Structured question-answer sessions
+- Introduction + Questions + Song/Outro format
+- Educational Q&A series
+
+## Current Implementation
+
+### Completed Features ✅
+- Single-script workflow for all video types
+- Whisper integration for high-quality transcription
+- AI-powered content analysis for intelligent chapter placement
+- Timestamp alignment to transcript segments
+- Support for both general and Q&A structured videos
+- Automatic cleanup of temporary files
+- Error handling and robust processing
+
+### File Structure
 ```
-Youtube Captions/
-├── 📁 src/                       # Source Code
-│   ├── main.py                   # Original script (subtitles only)
-│   └── main_enhanced.py          # Enhanced script with Whisper
-├── 📁 config/                    # Configuration
-│   ├── config.env                # Your API keys (PRIVATE)
-│   ├── config.env.example        # Configuration template
-│   └── requirements.txt          # Python dependencies
-├── 📁 chapters/                  # Generated Chapters (Auto-organized)
-│   ├── 📁 nbme_26/               # NBME 26 exam content
-│   ├── 📁 nbme_27/               # NBME 27 exam content  
-│   ├── 📁 nbme_29/               # NBME 29 exam content
-│   └── 📁 other/                 # Other video types
-├── 📁 docs/                      # Documentation
-│   └── README.md                 # Detailed documentation
-├── 📁 .venv/                     # Python virtual environment
-├── generate_chapters.py          # 🚀 Main launcher script
-└── PROJECT_OVERVIEW.md           # This file
+├── generate_youtube_chapters.py  # Main processing script
+├── chapters/                     # Generated chapter files
+│   ├── VIDEO_ID_Nchapters.txt   # Final chapter outputs
+├── config/                       # Configuration
+│   ├── config.env               # API keys
+│   └── requirements.txt         # Dependencies
+└── docs/                        # Documentation
+    └── README.md                # User guide
 ```
 
-## 🚀 Quick Start
+## Usage Examples
 
-### 1. Simple Usage (Recommended)
+### Medical Education (100 chapters)
 ```bash
-python generate_chapters.py "https://www.youtube.com/watch?v=VIDEO_ID" 100
+python generate_youtube_chapters.py https://youtu.be/iKEcax0auH0 100
 ```
+Generates: `chapters/iKEcax0auH0_100chapters.txt`
 
-### 2. Advanced Usage
+### Q&A Video (12 chapters: intro + 10 questions + song)
 ```bash
-# Force Whisper transcription
-python generate_chapters.py "https://youtu.be/VIDEO_ID" 50 --use-whisper
-
-# Use custom API key
-python generate_chapters.py "https://youtu.be/VIDEO_ID" 75 --api-key YOUR_KEY
+python generate_youtube_chapters.py https://youtu.be/vXpvPSYmI4I 12 --questions
 ```
+Generates: `chapters/vXpvPSYmI4I_12chapters.txt`
 
-## 🔧 How It Works
+## Technical Specifications
 
-1. **Input**: YouTube URL + suggested chapter count
-2. **Subtitle Check**: Tries to download existing subtitles
-3. **Whisper Fallback**: Downloads audio and transcribes if no subtitles
-4. **AI Analysis**: Uses OpenAI GPT to create intelligent chapters
-5. **Output**: Saves organized chapter files ready for YouTube
+### Dependencies
+- Python 3.7+
+- OpenAI API access (for Whisper and GPT-4)
+- yt-dlp for video processing
+- FFmpeg for audio handling
 
-## 📊 Generated Content Examples
+### Performance
+- Processes videos up to 6+ hours
+- Transcript alignment to exact segment boundaries
+- Automatic memory management for large files
+- Token-efficient AI analysis
 
-### Medical Education (NBME Content)
-```
-00:00:00 Introduction
-00:07:39 Metabolic Pathways
-00:13:27 Medical Treatment Considerations
-00:19:23 Gout and Crystal Formation
-00:25:13 Anemia of Chronic Disease
-```
+### Output Quality
+- 4-word maximum chapter titles for YouTube optimization
+- Content-based timing (not evenly spaced)
+- Professional formatting ready for YouTube descriptions
+- Accurate timestamps aligned to speech segments
 
-### Educational Content (ACT Prep)
-```
-00:00:00 Introduction
-00:02:07 ACT English Section Tips
-00:05:06 Comma Rules and Independent Clauses
-00:10:59 Prepositions and Sentence Structure
-```
+## Project Evolution
 
-## 🎯 Use Cases
-
-- **📚 Educational Content**: Medical school, test prep, tutorials
-- **🎬 Long-form Videos**: Podcasts, lectures, documentaries
-- **✂️ Content Creation**: YouTube uploads, video editing
-- **🔍 Research**: Quick navigation to specific topics
-
-## 🔑 Key Features
-
-- **🤖 AI-Powered**: Intelligent topic detection and naming
-- **🎵 Audio Processing**: Works even without subtitles
-- **📂 Auto-Organization**: Categorizes outputs by content type
-- **⚡ Smart Fallbacks**: Multiple backup methods ensure reliability
-- **🎨 Clean Output**: YouTube-ready chapter format
-
-## 📈 Performance
-
-- **Speed**: 2-5 minutes for typical 20-30 minute videos
-- **Accuracy**: High-quality chapters using GPT analysis
-- **Reliability**: Multiple fallback methods prevent failures
-- **Efficiency**: Automatic cleanup of temporary files
-
-## 🛠️ Maintenance
-
-### Adding New Content Categories
-1. Create new folder in `chapters/` directory
-2. Modify auto-organization logic if needed
-
-### Updating Dependencies
-```bash
-pip install -r config/requirements.txt --upgrade
-```
-
-### Backup Important Files
-- `config/config.env` (your API keys)
-- `chapters/` directory (your generated content)
-
-## 🚨 Important Notes
-
-- **API Costs**: Uses OpenAI tokens (typically $0.01-0.05 per video)
-- **Processing Time**: Longer videos take more time to process
-- **Audio Quality**: Results depend on original video audio quality
-- **Privacy**: Keep your `config/config.env` file secure
-
-## 📞 Support
-
-- Check `docs/README.md` for detailed documentation
-- Review error messages for troubleshooting hints
-- Ensure FFmpeg is installed for audio processing
-- Verify OpenAI API key is correctly configured
-
----
-
-**Last Updated**: Generated automatically during project organization
-**Version**: Enhanced with Whisper fallback support
+This project has been simplified from multiple specialized scripts to a single, robust solution that handles all use cases while maintaining high quality output and ease of use.

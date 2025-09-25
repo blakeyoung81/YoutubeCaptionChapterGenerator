@@ -1,35 +1,138 @@
-# YouTube Chapter Generator with Whisper Fallback
+# YouTube Chapter Generator
 
-This enhanced tool automatically generates intelligent chapters for YouTube videos using AI analysis. When subtitles aren't available, it falls back to downloading audio and using OpenAI's Whisper for transcription.
+This tool automatically generates YouTube chapters, optimized titles, and SEO tags from video transcripts using Whisper transcription and AI analysis. It creates precise, content-based chapter divisions and click-worthy titles for educational videos.
 
 ## Features
 
-- **Automatic Subtitle Detection**: First tries to use existing YouTube subtitles
-- **Whisper Fallback**: Downloads audio and transcribes with Whisper when subtitles aren't available
-- **AI-Powered Chapters**: Uses OpenAI GPT to create intelligent, topic-based chapters
-- **Smart Fallback**: Falls back to time-based chapters if AI analysis fails
-- **Multiple Output Formats**: Generates chapters in standard YouTube format
-- **Organized Output**: Automatically categorizes chapter files by content type
+- **Whisper Transcription**: High-quality audio transcription using OpenAI Whisper
+- **AI-Powered Chapters**: Intelligent chapter generation using GPT-4 models
+- **Optimized Video Titles**: 5 high-performing title suggestions designed for maximum clicks
+- **YouTube SEO Tags**: Automatically generates 15-20 optimized hashtags for better video discovery
+- **Content-Based Timing**: Timestamps aligned to actual topic introduction points
+- **Multiple Formats**: Support for general videos and Q&A structured content
+- **4-Word Titles**: Concise, YouTube-optimized chapter titles
 
-## Project Structure
+## Quick Start
+
+### Option 1: Web Interface (Recommended)
+
+1. **Setup Environment**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r config/requirements.txt
+   ```
+
+2. **Configure API Key**
+   Add your OpenAI API key to `config/config.env`:
+   ```
+   OPENAI_API_KEY=your_openai_api_key_here
+   ```
+
+3. **Start Web Interface**
+   ```bash
+   python app.py
+   ```
+   Then open http://localhost:5000 in your browser
+
+### Option 2: Command Line
+
+```bash
+# General educational video (100 chapters)
+python generate_youtube_chapters.py https://youtu.be/VIDEO_ID 100
+
+# Q&A video with questions + song structure
+python generate_youtube_chapters.py https://youtu.be/VIDEO_ID 12 --questions
+```
+
+## How It Works
+
+1. **Download**: Extracts audio from YouTube video
+2. **Transcribe**: Uses Whisper to create accurate transcript with timestamps
+3. **Analyze**: AI identifies topic introduction points and creates descriptions
+4. **Optimize**: Generates click-worthy video titles and SEO hashtags
+5. **Align**: Snaps chapter timestamps to exact transcript segment boundaries
+6. **Output**: Saves titles, chapters and tags ready for YouTube
+
+## File Structure
 
 ```
-Youtube Captions/
-├── src/                          # Source code
-│   ├── main.py                   # Original script (subtitles only)
-│   └── main_enhanced.py          # Enhanced script with Whisper
-├── config/                       # Configuration files
-│   ├── config.env                # Your API keys (keep private)
-│   ├── config.env.example        # Template for configuration
-│   └── requirements.txt          # Python dependencies
+├── app.py                        # Web interface (Flask)
+├── generate_youtube_chapters.py  # Command line script
+├── templates/                    # Web interface templates
 ├── chapters/                     # Generated chapter files
-│   ├── nbme_26/                  # NBME 26 related chapters
-│   ├── nbme_27/                  # NBME 27 related chapters
-│   ├── nbme_29/                  # NBME 29 related chapters
-│   └── other/                    # Other video chapters
+├── config/                       # Configuration files
+│   ├── config.env               # API keys
+│   └── requirements.txt         # Dependencies
 ├── docs/                         # Documentation
-│   └── README.md                 # This file
-└── .venv/                        # Virtual environment (auto-created)
+└── WEB_INTERFACE.md             # Web interface guide
+```
+
+## Web Interface Features
+
+The web interface provides a beautiful, user-friendly way to generate chapters:
+
+- **Modern Design**: Clean, responsive interface with gradients
+- **Real-time Processing**: Visual progress indicators
+- **Title Suggestions**: 5 click-optimized video titles with one-click copying
+- **Tag Management**: Display and copy YouTube SEO hashtags
+- **Easy Export**: Download files or copy titles/chapters/tags to clipboard
+- **Mobile Friendly**: Works on all devices
+- **Error Handling**: Clear validation and error messages
+
+![Web Interface](https://via.placeholder.com/800x400/667eea/ffffff?text=Beautiful+Web+Interface)
+
+## Usage Examples
+
+### Medical Education Video (Long-form)
+```bash
+python generate_youtube_chapters.py https://youtu.be/iKEcax0auH0 100
+```
+
+**Output:** `chapters/iKEcax0auH0_100chapters.txt`
+```
+SUGGESTED TITLES:
+1. "Master Cardiovascular Physiology: Complete USMLE Step 1 Guide!"
+2. "Heart & Blood Pressure Secrets: Essential Medical Knowledge!"
+3. "Cardiology Made Simple: Everything for Medical Students!"
+4. "USMLE Step 1 Cardiology: 100 Key Topics in 6 Hours!"
+5. "Complete Heart Physiology: From Basics to Expert Level!"
+
+CHAPTERS:
+00:00:00 Introduction
+00:03:45 Cardiovascular Physiology Basics
+00:07:22 Heart Rate Regulation
+00:11:55 Blood Pressure Mechanisms
+...
+06:35:08 Closing Remarks
+
+YOUTUBE TAGS:
+#MedicalEducation #Cardiology #Physiology #USMLE #Step1Prep #HeartPhysiology #BloodPressure #MedicalStudents #HealthEducation #ExamPrep #ClinicalMedicine #MedicalKnowledge #CardiologyReview #MedicalStudy #HealthScience #MedicalTraining #HeartRate #BloodFlow #MedicalSchool #EducationalContent
+```
+
+### Q&A Video with Song
+```bash
+python generate_youtube_chapters.py https://youtu.be/vXpvPSYmI4I 12 --questions
+```
+
+**Output:** `chapters/vXpvPSYmI4I_12chapters.txt`
+```
+SUGGESTED TITLES:
+1. "10 Essential Questions Every Student Must Know!"
+2. "Master Key Concepts: Q&A Study Session + Music!"
+3. "Ultimate Study Guide: Questions & Answers Explained!"
+4. "Test Your Knowledge: 10 Must-Know Q&A + Song!"
+5. "Complete Review: Essential Questions for Success!"
+
+CHAPTERS:
+00:00:00 Introduction
+00:01:30 Question One Topic
+00:04:15 Question Two Topic
+...
+00:28:45 Song
+
+YOUTUBE TAGS:
+#QuestionAnswer #QAVideo #EducationalContent #LearningVideo #StudyGuide #ExamPrep #Educational #Tutorial #Knowledge #StudentLife #Study #Learning #AcademicContent #QuizVideo #TestPrep #StudyTips #Educational #KnowledgeBase #StudyMaterial #LearningTips
 ```
 
 ## Requirements
@@ -41,120 +144,67 @@ Youtube Captions/
 
 ## Installation
 
-1. **Clone or download the project**
-2. **Install dependencies**:
+1. **Install FFmpeg**
+   - macOS: `brew install ffmpeg`
+   - Windows: Download from ffmpeg.org
+   - Linux: `sudo apt install ffmpeg`
+
+2. **Install Python Dependencies**
    ```bash
    pip install -r config/requirements.txt
    ```
-3. **Set up your OpenAI API key**:
-   - Copy `config/config.env.example` to `config/config.env`
-   - Add your OpenAI API key to `config/config.env`
 
-## Usage
+3. **Setup Configuration**
+   ```bash
+   cp config/config.env.example config/config.env
+   # Edit config/config.env and add your OpenAI API key
+   ```
 
-### Basic Usage
+## Use Cases
+
+- **Medical Education**: USMLE Step 1 prep videos with 100+ topics
+- **Academic Content**: Lecture recordings with multiple subjects
+- **Q&A Videos**: Structured question-answer format with intro/outro
+- **Long-form Educational**: Multi-hour comprehensive reviews
+
+## Generated Files
+
+- `VIDEO_ID_audio.mp3`: Downloaded audio (automatically cleaned up)
+- `VIDEO_ID_transcript.json`: Whisper transcription with timestamps
+- `chapters/VIDEO_ID_Nchapters.txt`: Complete optimization file with titles, chapters and SEO tags
+
+## Advanced Options
 
 ```bash
-python src/main_enhanced.py "https://www.youtube.com/watch?v=VIDEO_ID" 100
+# Custom API key
+python generate_youtube_chapters.py URL COUNT --api-key YOUR_KEY
+
+# Q&A structure (intro + questions + song)
+python generate_youtube_chapters.py URL COUNT --questions
 ```
-
-### Force Whisper (Even if subtitles exist)
-
-```bash
-python src/main_enhanced.py "https://www.youtube.com/watch?v=VIDEO_ID" 100 --use-whisper
-```
-
-### With Custom API Key
-
-```bash
-python src/main_enhanced.py "https://www.youtube.com/watch?v=VIDEO_ID" 100 --api-key YOUR_API_KEY
-```
-
-## How It Works
-
-1. **Subtitle Check**: First attempts to download and parse existing YouTube subtitles
-2. **Audio Download**: If no subtitles, downloads audio using yt-dlp
-3. **Whisper Transcription**: Uses OpenAI Whisper to transcribe audio to text
-4. **AI Analysis**: Sends transcript to OpenAI GPT for intelligent chapter generation
-5. **Chapter Creation**: Generates properly formatted chapters with timestamps
-6. **Output**: Saves chapters to a text file named after the video title
-
-## Output Format
-
-Chapters are saved in standard YouTube format:
-```
-00:00:00 Introduction
-00:02:07 ACT English Section Tips
-00:05:06 Comma Rules and Independent Clauses
-...
-```
-
-## Example Output
-
-For the video "Harvard Grad Reveals ACT English Secrets You've Never Heard":
-
-```
-00:00:00 Introduction
-00:02:07 ACT English Section Tips
-00:05:06 Comma Rules and Independent Clauses
-00:07:34 Building Independent Clauses
-00:10:59 Prepositions and Sentence Structure
-00:14:29 Keeping It Simple and Consistent
-00:18:26 Grammar Techniques and Tips
-```
-
-## File Structure
-
-- `main_enhanced.py` - Enhanced script with Whisper fallback
-- `main.py` - Original script (subtitles only)
-- `config.env` - Configuration file for API keys
-- `requirements.txt` - Python dependencies
-- `*_chapters.txt` - Generated chapter files
 
 ## Troubleshooting
 
 ### Common Issues
 
-1. **"No module named 'whisper'"**
-   - Install Whisper: `pip install openai-whisper`
-
-2. **"FFmpeg not found"**
-   - Install FFmpeg: `brew install ffmpeg` (macOS) or download from ffmpeg.org
-
-3. **"OpenAI API key not found"**
-   - Check your `config.env` file has the correct API key
-
-4. **Token limit exceeded**
-   - The script automatically reduces sample size and falls back to time-based chapters
+1. **FFmpeg not found**: Install FFmpeg for your OS
+2. **API key error**: Check `config/config.env` has valid OpenAI API key
+3. **Memory issues**: Use shorter videos or reduce chapter count
+4. **Private videos**: Ensure video is public or unlisted
 
 ### Performance Tips
 
-- **Whisper Model**: Uses "base" model by default. Change to "tiny" for faster processing or "medium"/"large" for better accuracy
-- **Audio Quality**: Downloads at 192kbps MP3 for good balance of quality and speed
-- **Cleanup**: Automatically removes downloaded audio files after processing
-
-## Use Cases
-
-- **Educational Videos**: Create study guides with specific topic timestamps
-- **Long-form Content**: Break down lengthy videos into digestible sections
-- **Content Creation**: Generate chapter markers for YouTube uploads
-- **Research**: Quickly navigate to specific topics in video content
+- Whisper uses "base" model for speed/accuracy balance
+- AI analysis samples transcript to stay within token limits
+- Audio files are automatically cleaned up after processing
 
 ## Limitations
 
-- **Processing Time**: Whisper transcription can take several minutes for long videos
-- **Audio Quality**: Depends on original video audio quality
-- **Language**: Currently optimized for English content
-- **API Costs**: Uses OpenAI API tokens for chapter generation
-
-## Future Enhancements
-
-- [ ] Support for multiple languages
-- [ ] Batch processing of multiple videos
-- [ ] Custom chapter templates
-- [ ] Integration with YouTube API for direct upload
-- [ ] Support for other transcription services
+- English content only (Whisper limitation)
+- Requires OpenAI API credits
+- Processing time scales with video length
+- Maximum ~6 hour videos (due to memory constraints)
 
 ## License
 
-This project is open source and available under the MIT License.
+MIT License - See LICENSE file for details

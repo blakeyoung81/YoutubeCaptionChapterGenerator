@@ -3,4 +3,5 @@ yt-dlp
 openai
 python-dotenv
 openai-whisper
+flask
 

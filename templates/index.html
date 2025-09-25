@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Chapter Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .main-container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            margin: 2rem auto;
+            max-width: 1200px;
+        }
+        .header {
+            background: linear-gradient(135deg, #ff7b7b 0%, #ff416c 100%);
+            color: white;
+            padding: 3rem 2rem;
+            border-radius: 20px 20px 0 0;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 3rem 2rem;
+        }
+        .feature-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-left: 5px solid #ff416c;
+        }
+        .feature-icon {
+            font-size: 2rem;
+            color: #ff416c;
+            margin-bottom: 1rem;
+        }
+        .generator-form {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        .btn-generate {
+            background: linear-gradient(135deg, #ff7b7b 0%, #ff416c 100%);
+            border: none;
+            border-radius: 10px;
+            padding: 1rem 2rem;
+            font-weight: 600;
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .btn-generate:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(255, 65, 108, 0.3);
+            color: white;
+        }
+        .btn-generate:disabled {
+            background: #6c757d;
+            transform: none;
+            box-shadow: none;
+        }
+        .example-output {
+            background: #2d3748;
+            color: #e2e8f0;
+            border-radius: 10px;
+            padding: 1.5rem;
+            font-family: 'Courier New', monospace;
+            margin: 1rem 0;
+        }
+        .progress-container {
+            display: none;
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .results-container {
+            display: none;
+            margin: 2rem 0;
+        }
+        .chapter-list {
+            max-height: 400px;
+            overflow-y: auto;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 1rem;
+        }
+        .chapter-item {
+            padding: 0.5rem;
+            border-bottom: 1px solid #dee2e6;
+            font-family: 'Courier New', monospace;
+        }
+        .chapter-item:last-child {
+            border-bottom: none;
+        }
+        .spinner {
+            width: 3rem;
+            height: 3rem;
+            border: 0.3rem solid #f8f9fa;
+            border-top: 0.3rem solid #ff416c;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .alert-custom {
+            border: none;
+            border-radius: 10px;
+            margin: 1rem 0;
+        }
+        .url-examples {
+            background: #e3f2fd;
+            border-radius: 10px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        .title-suggestion {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+        .title-suggestion:hover {
+            background: #ffeaa7;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .title-suggestion .title-text {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: #856404;
+        }
+        .title-suggestion .copy-indicator {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            font-size: 0.8rem;
+            color: #6c757d;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+        .title-suggestion:hover .copy-indicator {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="main-container">
+            <!-- Header -->
+            <div class="header">
+                <h1><i class="fas fa-video"></i> YouTube Chapter Generator</h1>
+                <p>AI-powered chapters, optimized titles, and SEO tags for educational videos</p>
+            </div>
+
+            <!-- Content -->
+            <div class="content">
+                <!-- What it does -->
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3>How It Works</h3>
+                            <ol>
+                                <li><strong>Download</strong> - Extracts audio from YouTube video</li>
+                                <li><strong>Transcribe</strong> - Uses OpenAI Whisper for accurate speech-to-text</li>
+                                <li><strong>Analyze</strong> - AI identifies topic introduction points</li>
+                                <li><strong>Generate</strong> - Creates chapters with 4-word max titles</li>
+                                <li><strong>Optimize</strong> - Generates click-worthy video titles and SEO hashtags</li>
+                                <li><strong>Align</strong> - Snaps timestamps to exact transcript boundaries</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3>Perfect For</h3>
+                            <ul>
+                                <li><strong>Medical Education</strong> - USMLE Step 1 prep videos</li>
+                                <li><strong>Long Lectures</strong> - Multi-hour educational content</li>
+                                <li><strong>Q&A Videos</strong> - Structured question-answer format</li>
+                                <li><strong>Academic Content</strong> - University lectures and tutorials</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example Output -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-list"></i>
+                    </div>
+                    <h3>Example Output</h3>
+                    <p>Generated chapters are ready to copy-paste into YouTube descriptions:</p>
+                    <div class="example-output">
+00:00:00 Introduction<br>
+00:03:45 Cardiovascular Physiology Basics<br>
+00:07:22 Heart Rate Regulation<br>
+00:11:55 Blood Pressure Mechanisms<br>
+00:15:30 Cardiac Output Concepts<br>
+00:19:12 Vascular Resistance Theory<br>
+...
+                    </div>
+                </div>
+
+                <!-- Generator Form -->
+                <div class="generator-form">
+                    <h3><i class="fas fa-magic"></i> Generate Chapters</h3>
+                    
+                    <form id="generateForm">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <label for="videoUrl" class="form-label">YouTube Video URL</label>
+                                <input type="url" class="form-control" id="videoUrl" 
+                                       placeholder="https://www.youtube.com/watch?v=..." required>
+                                <div class="url-examples">
+                                    <small class="text-muted">
+                                        <strong>Supported formats:</strong><br>
+                                        • https://www.youtube.com/watch?v=VIDEO_ID<br>
+                                        • https://youtu.be/VIDEO_ID
+                                    </small>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <label for="chapterCount" class="form-label">Chapters</label>
+                                <input type="number" class="form-control" id="chapterCount" 
+                                       value="100" min="1" max="200" required>
+                            </div>
+                            <div class="col-lg-2">
+                                <label class="form-label">&nbsp;</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="questionsMode">
+                                    <label class="form-check-label" for="questionsMode">
+                                        Q&A Format
+                                    </label>
+                                </div>
+                                <small class="text-muted">For intro + questions + song structure</small>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-3">
+                            <button type="submit" class="btn btn-generate btn-lg">
+                                <i class="fas fa-rocket"></i> Generate Chapters
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Progress -->
+                <div class="progress-container" id="progressContainer">
+                    <div class="spinner mx-auto mb-3"></div>
+                    <h4>Generating Chapters...</h4>
+                    <p class="text-muted">This may take several minutes for long videos</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" 
+                             style="width: 100%"></div>
+                    </div>
+                </div>
+
+                <!-- Results -->
+                <div class="results-container" id="resultsContainer">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h3><i class="fas fa-check-circle text-success"></i> Generated Chapters</h3>
+                        <button class="btn btn-outline-primary" id="downloadBtn">
+                            <i class="fas fa-download"></i> Download
+                        </button>
+                    </div>
+                    
+                    <!-- Title Suggestions Section -->
+                    <div id="titlesSection" style="display: none; margin-bottom: 2rem;">
+                        <h5><i class="fas fa-lightbulb"></i> Suggested YouTube Titles</h5>
+                        <div class="alert alert-warning">
+                            <small><strong>SEO Optimized:</strong> These titles are designed for maximum clicks and discoverability!</small>
+                        </div>
+                        <div id="titlesList"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h5>Chapter List</h5>
+                            <div class="chapter-list" id="chapterList"></div>
+                            
+                            <!-- YouTube Tags Section -->
+                            <div id="tagsSection" style="display: none; margin-top: 1.5rem;">
+                                <h5><i class="fas fa-hashtag"></i> YouTube Tags</h5>
+                                <div class="alert alert-info">
+                                    <small>Copy these hashtags to your video description for better SEO:</small>
+                                </div>
+                                <div class="example-output" id="tagsList" style="word-wrap: break-word;"></div>
+                                <button class="btn btn-outline-secondary btn-sm" id="copyTagsBtn">
+                                    <i class="fas fa-copy"></i> Copy Tags
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5>Raw Text (Copy for YouTube)</h5>
+                            <textarea class="form-control" id="rawChapters" 
+                                      rows="15" readonly></textarea>
+                            <button class="btn btn-outline-secondary mt-2" id="copyBtn">
+                                <i class="fas fa-copy"></i> Copy to Clipboard
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Error Alert -->
+                <div class="alert alert-danger alert-custom" id="errorAlert" style="display: none;">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <span id="errorMessage"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('generateForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const url = document.getElementById('videoUrl').value.trim();
+            const chapters = parseInt(document.getElementById('chapterCount').value);
+            const questions = document.getElementById('questionsMode').checked;
+            
+            // Show progress, hide results and errors
+            document.getElementById('progressContainer').style.display = 'block';
+            document.getElementById('resultsContainer').style.display = 'none';
+            document.getElementById('errorAlert').style.display = 'none';
+            
+            // Disable form
+            const submitBtn = document.querySelector('button[type="submit"]');
+            submitBtn.disabled = true;
+            
+            try {
+                const response = await fetch('/api/generate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        url: url,
+                        chapters: chapters,
+                        questions: questions
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    // Show results
+                    displayResults(data);
+                } else {
+                    showError(data.error || 'Unknown error occurred');
+                }
+            } catch (error) {
+                showError('Network error: ' + error.message);
+            } finally {
+                // Hide progress, enable form
+                document.getElementById('progressContainer').style.display = 'none';
+                submitBtn.disabled = false;
+            }
+        });
+        
+        function displayResults(data) {
+            // Display title suggestions if available
+            if (data.titles && data.titles.length > 0) {
+                const titlesList = document.getElementById('titlesList');
+                titlesList.innerHTML = data.titles.map((title, index) => 
+                    `<div class="title-suggestion" onclick="copyTitle('${title.replace(/'/g, "\\'")}')">
+                        <div class="title-text">${title}</div>
+                        <div class="copy-indicator">Click to copy</div>
+                    </div>`
+                ).join('');
+                document.getElementById('titlesSection').style.display = 'block';
+            } else {
+                document.getElementById('titlesSection').style.display = 'none';
+            }
+            
+            // Update chapter list
+            const chapterList = document.getElementById('chapterList');
+            chapterList.innerHTML = data.chapters.map(ch => 
+                `<div class="chapter-item">${ch.timestamp} ${ch.title}</div>`
+            ).join('');
+            
+            // Update raw text
+            document.getElementById('rawChapters').value = data.raw_content;
+            
+            // Display YouTube tags if available
+            if (data.tags) {
+                document.getElementById('tagsList').textContent = data.tags;
+                document.getElementById('tagsSection').style.display = 'block';
+                
+                // Set up copy tags functionality
+                document.getElementById('copyTagsBtn').onclick = function() {
+                    navigator.clipboard.writeText(data.tags).then(() => {
+                        const btn = this;
+                        const originalText = btn.innerHTML;
+                        btn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                        btn.classList.add('btn-success');
+                        btn.classList.remove('btn-outline-secondary');
+                        
+                        setTimeout(() => {
+                            btn.innerHTML = originalText;
+                            btn.classList.remove('btn-success');
+                            btn.classList.add('btn-outline-secondary');
+                        }, 2000);
+                    });
+                };
+            } else {
+                document.getElementById('tagsSection').style.display = 'none';
+            }
+            
+            // Set up download
+            document.getElementById('downloadBtn').onclick = () => {
+                window.location.href = `/api/download/${data.video_id}`;
+            };
+            
+            // Show results
+            document.getElementById('resultsContainer').style.display = 'block';
+        }
+        
+        function showError(message) {
+            document.getElementById('errorMessage').textContent = message;
+            document.getElementById('errorAlert').style.display = 'block';
+        }
+        
+        function copyTitle(title) {
+            navigator.clipboard.writeText(title).then(() => {
+                // Visual feedback - find the clicked element and show success
+                const suggestions = document.querySelectorAll('.title-suggestion');
+                suggestions.forEach(el => {
+                    if (el.querySelector('.title-text').textContent === title) {
+                        const indicator = el.querySelector('.copy-indicator');
+                        const originalText = indicator.textContent;
+                        indicator.textContent = 'Copied!';
+                        indicator.style.opacity = '1';
+                        indicator.style.color = '#28a745';
+                        
+                        setTimeout(() => {
+                            indicator.textContent = originalText;
+                            indicator.style.color = '#6c757d';
+                        }, 2000);
+                    }
+                });
+            }).catch(err => {
+                console.error('Failed to copy title: ', err);
+            });
+        }
+        
+        // Copy to clipboard functionality
+        document.getElementById('copyBtn').addEventListener('click', function() {
+            const textarea = document.getElementById('rawChapters');
+            textarea.select();
+            document.execCommand('copy');
+            
+            // Visual feedback
+            const btn = this;
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+            btn.classList.add('btn-success');
+            btn.classList.remove('btn-outline-secondary');
+            
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+                btn.classList.remove('btn-success');
+                btn.classList.add('btn-outline-secondary');
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
